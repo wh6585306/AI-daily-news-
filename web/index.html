@@ -3,120 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI每日动态 - Dashboard</title>
+    <title>AI Daily News - AI每日动态</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- Chart.js for visualizations -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- 使用阿里巴巴图标库 -->
-    <link rel="stylesheet" href="https://at.alicdn.com/t/c/font_4383134_x8k0y3ueqxd.css">
 </head>
 <body>
-    <div class="container">
-        <!-- 顶部导航 -->
+    <div class="app">
+        <!-- 顶部标题栏 -->
         <header class="header">
-            <div class="logo">
-                <span class="logo-icon">🤖</span>
-                <h1>AI每日动态</h1>
+            <div class="header-left">
+                <div class="logo">
+                    <span class="logo-icon">◆</span>
+                    <span class="logo-text">AI Daily News</span>
+                </div>
+                <span class="logo-subtitle">每日AI动态报送</span>
             </div>
-            <div class="header-info">
-                <span id="last-updated">最后更新：加载中...</span>
+            <div class="header-right">
+                <span class="update-time" id="update-time">--</span>
             </div>
         </header>
 
-        <!-- 统计卡片 -->
-        <section class="stats-section">
-            <div class="stat-card">
-                <div class="stat-icon domestic">📰</div>
-                <div class="stat-content">
-                    <h3>国内动态</h3>
-                    <p class="stat-number" id="stat-domestic">0</p>
+        <!-- 主体内容 -->
+        <main class="main">
+            <!-- 左侧：日期导航 -->
+            <aside class="sidebar-left">
+                <div class="sidebar-title">历史记录</div>
+                <div class="date-list" id="date-list">
+                    <div class="loading-text">加载中...</div>
                 </div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-icon international">🌍</div>
-                <div class="stat-content">
-                    <h3>国际动态</h3>
-                    <p class="stat-number" id="stat-international">0</p>
-                </div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-icon total">📊</div>
-                <div class="stat-content">
-                    <h3>累计天数</h3>
-                    <p class="stat-number" id="stat-days">0</p>
-                </div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-icon hot">🔥</div>
-                <div class="stat-content">
-                    <h3>高优先级</h3>
-                    <p class="stat-number" id="stat-high">0</p>
-                </div>
-            </div>
-        </section>
+            </aside>
 
-        <!-- 日期选择器 -->
-        <section class="date-selector">
-            <button class="nav-btn" id="prev-date">◀ 上一天</button>
-            <select id="date-select">
-                <option value="">选择日期</option>
-            </select>
-            <button class="nav-btn" id="next-date">下一天 ▶</button>
-        </section>
-
-        <!-- 主要内容区 -->
-        <main class="main-content">
-            <!-- 左侧：新闻列表 -->
-            <div class="news-panel">
-                <!-- 国内动态 -->
-                <div class="news-section">
-                    <h2 class="section-title">
-                        <span class="title-icon">🇨🇳</span>
-                        国内动态
-                    </h2>
-                    <div class="news-list" id="domestic-news">
-                        <div class="loading">加载中...</div>
+            <!-- 中间：新闻内容 -->
+            <section class="content">
+                <div class="content-header">
+                    <h1 class="current-date" id="current-date">AI每日动态</h1>
+                    <div class="stats-mini">
+                        <span class="stat-item">国内 <strong id="stat-domestic">0</strong> 条</span>
+                        <span class="stat-divider">|</span>
+                        <span class="stat-item">国际 <strong id="stat-international">0</strong> 条</span>
                     </div>
                 </div>
 
-                <!-- 国际动态 -->
-                <div class="news-section">
-                    <h2 class="section-title">
-                        <span class="title-icon">🌐</span>
-                        国际动态
-                    </h2>
-                    <div class="news-list" id="international-news">
-                        <div class="loading">加载中...</div>
+                <div class="news-container" id="news-container">
+                    <!-- 国内动态 -->
+                    <div class="news-section">
+                        <h2 class="section-title">国内动态</h2>
+                        <div class="news-list" id="domestic-news">
+                            <div class="loading-text">加载中...</div>
+                        </div>
+                    </div>
+
+                    <!-- 国际动态 -->
+                    <div class="news-section">
+                        <h2 class="section-title">国际动态</h2>
+                        <div class="news-list" id="international-news">
+                            <div class="loading-text">加载中...</div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <!-- 右侧：图表区 -->
-            <div class="chart-panel">
-                <!-- 每日趋势图 -->
-                <div class="chart-section">
-                    <h3>📈 每日动态趋势</h3>
-                    <canvas id="trend-chart"></canvas>
+            <!-- 右侧：数据看板 -->
+            <aside class="sidebar-right">
+                <div class="sidebar-title">数据看板</div>
+                
+                <!-- 统计卡片 -->
+                <div class="dashboard-card">
+                    <div class="card-title">今日统计</div>
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <div class="stat-value" id="total-news">0</div>
+                            <div class="stat-label">精选新闻</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value" id="raw-news">0</div>
+                            <div class="stat-label">原始采集</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 分类占比 -->
+                <div class="dashboard-card">
+                    <div class="card-title">分类占比</div>
+                    <div class="chart-container">
+                        <canvas id="category-chart"></canvas>
+                    </div>
                 </div>
 
                 <!-- 重要性分布 -->
-                <div class="chart-section">
-                    <h3>🎯 重要性分布</h3>
-                    <canvas id="importance-chart"></canvas>
+                <div class="dashboard-card">
+                    <div class="card-title">重要性分布</div>
+                    <div class="chart-container">
+                        <canvas id="importance-chart"></canvas>
+                    </div>
                 </div>
 
-                <!-- 今日摘要 -->
-                <div class="summary-section">
-                    <h3>📋 今日摘要</h3>
-                    <p id="daily-summary">暂无摘要</p>
+                <!-- 趋势图 -->
+                <div class="dashboard-card">
+                    <div class="card-title">近7日趋势</div>
+                    <div class="chart-container chart-large">
+                        <canvas id="trend-chart"></canvas>
+                    </div>
                 </div>
-            </div>
+            </aside>
         </main>
 
-        <!-- 页脚 -->
+        <!-- 底部 -->
         <footer class="footer">
-            <p>AI Daily News Dashboard | 每天16:00自动更新</p>
-            <p>Powered by GitHub Actions & OpenAI</p>
+            <span>AI Daily News © 2025</span>
+            <span class="footer-divider">|</span>
+            <span>每天16:00自动更新</span>
         </footer>
     </div>
 

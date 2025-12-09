@@ -1,269 +1,166 @@
 /**
- * AI Daily News Dashboard - JavaScript Application
- * 可视化数据看板前端逻辑
+ * AI Daily News - 简洁科技风前端
  */
 
-// 配置
 const CONFIG = {
     dataPath: '../data',
     indexFile: 'index.json',
     dailyPath: 'daily'
 };
 
-// 全局状态
 let state = {
     currentDate: null,
     dates: [],
     statistics: null,
-    trendChart: null,
-    importanceChart: null
+    charts: {}
 };
 
-// 初始化应用
+// 初始化
 document.addEventListener('DOMContentLoaded', async () => {
-    console.log('🚀 AI Daily News Dashboard 初始化...');
-    
     try {
         await loadIndex();
-        initEventListeners();
-        
         if (state.dates.length > 0) {
             await loadDailyNews(state.dates[0]);
-        } else {
-            showEmptyState();
         }
-        
-        initCharts();
-        updateStatistics();
-        
     } catch (error) {
         console.error('初始化失败:', error);
-        showError('加载数据失败，请刷新页面重试');
+        loadDemoData();
     }
 });
 
-// 加载索引文件
+// 加载索引
 async function loadIndex() {
     try {
         const response = await fetch(`${CONFIG.dataPath}/${CONFIG.indexFile}`);
-        if (!response.ok) throw new Error('索引文件不存在');
+        if (!response.ok) throw new Error('索引不存在');
         
         const data = await response.json();
         state.dates = data.dates || [];
         state.statistics = data.statistics || {};
         
-        // 更新最后更新时间
-        document.getElementById('last-updated').textContent = 
-            `最后更新：${data.last_updated || '未知'}`;
-        
-        // 填充日期选择器
-        populateDateSelector();
-        
-        console.log('✅ 索引加载成功，共有', state.dates.length, '天数据');
-        
+        renderDateList();
+        document.getElementById('update-time').textContent = 
+            `最后更新: ${data.last_updated || '--'}`;
     } catch (error) {
-        console.warn('索引加载失败，尝试使用演示数据:', error);
-        loadDemoData();
+        throw error;
     }
 }
 
-// 填充日期选择器
-function populateDateSelector() {
-    const selector = document.getElementById('date-select');
-    selector.innerHTML = '';
+// 渲染日期列表
+function renderDateList() {
+    const container = document.getElementById('date-list');
     
-    state.dates.forEach(date => {
-        const option = document.createElement('option');
-        option.value = date;
-        option.textContent = formatDate(date);
-        selector.appendChild(option);
-    });
-    
-    if (state.dates.length > 0) {
-        selector.value = state.dates[0];
-        state.currentDate = state.dates[0];
+    if (state.dates.length === 0) {
+        container.innerHTML = '<div class="empty-state">暂无数据</div>';
+        return;
     }
+    
+    container.innerHTML = state.dates.map((date, index) => {
+        const d = new Date(date);
+        const weekdays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+        return `
+            <div class="date-item ${index === 0 ? 'active' : ''}" data-date="${date}">
+                <span class="date-main">${d.getMonth() + 1}月${d.getDate()}日</span>
+                <span class="date-sub">${weekdays[d.getDay()]}</span>
+            </div>
+        `;
+    }).join('');
+    
+    // 绑定点击事件
+    container.querySelectorAll('.date-item').forEach(item => {
+        item.addEventListener('click', () => {
+            container.querySelectorAll('.date-item').forEach(i => i.classList.remove('active'));
+            item.classList.add('active');
+            loadDailyNews(item.dataset.date);
+        });
+    });
 }
 
 // 加载每日新闻
 async function loadDailyNews(date) {
-    if (!date) return;
-    
     state.currentDate = date;
-    document.getElementById('date-select').value = date;
     
     // 显示加载状态
-    document.getElementById('domestic-news').innerHTML = '<div class="loading">加载中...</div>';
-    document.getElementById('international-news').innerHTML = '<div class="loading">加载中...</div>';
+    document.getElementById('domestic-news').innerHTML = '<div class="loading-text">加载中...</div>';
+    document.getElementById('international-news').innerHTML = '<div class="loading-text">加载中...</div>';
     
     try {
         const response = await fetch(`${CONFIG.dataPath}/${CONFIG.dailyPath}/${date}.json`);
-        if (!response.ok) throw new Error('数据文件不存在');
+        if (!response.ok) throw new Error('数据不存在');
         
         const data = await response.json();
         
-        renderNews('domestic-news', data.domestic || [], '国内');
-        renderNews('international-news', data.international || [], '国际');
+        // 更新标题
+        const d = new Date(date);
+        document.getElementById('current-date').textContent = 
+            `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日 AI动态`;
         
-        // 更新摘要
-        document.getElementById('daily-summary').textContent = 
-            data.summary || '暂无摘要';
+        // 更新统计
+        document.getElementById('stat-domestic').textContent = data.domestic?.length || 0;
+        document.getElementById('stat-international').textContent = data.international?.length || 0;
+        document.getElementById('total-news').textContent = 
+            (data.domestic?.length || 0) + (data.international?.length || 0);
+        document.getElementById('raw-news').textContent = 
+            data.statistics?.raw_total || '--';
         
-        console.log('✅ 加载', date, '的新闻成功');
+        // 渲染新闻
+        renderNews('domestic-news', data.domestic || []);
+        renderNews('international-news', data.international || []);
+        
+        // 更新图表
+        updateCharts(data);
         
     } catch (error) {
-        console.error('加载每日新闻失败:', error);
-        showEmptyState();
+        console.error('加载失败:', error);
+        document.getElementById('domestic-news').innerHTML = '<div class="empty-state">暂无数据</div>';
+        document.getElementById('international-news').innerHTML = '<div class="empty-state">暂无数据</div>';
     }
 }
 
 // 渲染新闻列表
-function renderNews(containerId, newsList, category) {
+function renderNews(containerId, newsList) {
     const container = document.getElementById(containerId);
     
     if (!newsList || newsList.length === 0) {
-        container.innerHTML = `
-            <div class="empty-state">
-                <div class="icon">📭</div>
-                <p>暂无${category}动态</p>
-            </div>
-        `;
+        container.innerHTML = '<div class="empty-state">暂无动态</div>';
         return;
     }
     
     container.innerHTML = newsList.map(news => {
-        const importanceClass = getImportanceClass(news.importance);
-        const importanceText = news.importance || '中';
-        const tags = (news.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('');
+        const isHigh = news.importance === '高';
+        // 提取核心摘要内容
+        let summary = news.summary || '';
+        // 确保格式正确
+        if (!summary.includes('消息，')) {
+            const d = new Date(state.currentDate);
+            summary = `${d.getMonth() + 1}月${d.getDate()}日消息，${summary}`;
+        }
         
         return `
-            <div class="news-item ${importanceClass}">
-                <div class="news-header">
-                    <span class="news-index">${news.index}</span>
-                    <h4 class="news-title">${escapeHtml(news.title || '')}</h4>
-                    <span class="importance-badge ${importanceClass}">${importanceText}</span>
+            <div class="news-item ${isHigh ? 'high' : ''}">
+                <span class="news-index">${news.index}</span>
+                <div class="news-content">
+                    <p class="news-text">${escapeHtml(summary)}</p>
+                    ${news.url ? `<div class="news-meta"><a href="${news.url}" target="_blank">查看原文 →</a></div>` : ''}
                 </div>
-                <p class="news-summary">${escapeHtml(news.summary || '')}</p>
-                <div class="news-meta">
-                    <span>📰 ${escapeHtml(news.source || 'N/A')}</span>
-                    ${news.url ? `<a href="${news.url}" target="_blank">🔗 查看原文</a>` : ''}
-                </div>
-                ${tags ? `<div class="news-tags">${tags}</div>` : ''}
             </div>
         `;
     }).join('');
 }
 
-// 获取重要性样式类
-function getImportanceClass(importance) {
-    switch (importance) {
-        case '高': return 'high';
-        case '中': return 'medium';
-        case '低': return 'low';
-        default: return 'medium';
-    }
-}
-
-// 初始化图表
-function initCharts() {
-    initTrendChart();
-    initImportanceChart();
-}
-
-// 初始化趋势图
-function initTrendChart() {
-    const ctx = document.getElementById('trend-chart');
-    if (!ctx) return;
+// 更新图表
+function updateCharts(data) {
+    // 分类占比饼图
+    const categoryCtx = document.getElementById('category-chart');
+    if (state.charts.category) state.charts.category.destroy();
     
-    const byDate = state.statistics?.by_date || [];
-    const labels = byDate.slice(0, 14).reverse().map(d => formatDateShort(d.date));
-    const domesticData = byDate.slice(0, 14).reverse().map(d => d.domestic || 0);
-    const internationalData = byDate.slice(0, 14).reverse().map(d => d.international || 0);
-    
-    if (state.trendChart) {
-        state.trendChart.destroy();
-    }
-    
-    state.trendChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: labels.length > 0 ? labels : ['暂无数据'],
-            datasets: [
-                {
-                    label: '国内动态',
-                    data: domesticData.length > 0 ? domesticData : [0],
-                    borderColor: '#ff6b6b',
-                    backgroundColor: 'rgba(255, 107, 107, 0.1)',
-                    tension: 0.4,
-                    fill: true
-                },
-                {
-                    label: '国际动态',
-                    data: internationalData.length > 0 ? internationalData : [0],
-                    borderColor: '#5f27cd',
-                    backgroundColor: 'rgba(95, 39, 205, 0.1)',
-                    tension: 0.4,
-                    fill: true
-                }
-            ]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    position: 'bottom',
-                    labels: {
-                        color: '#94a3b8'
-                    }
-                }
-            },
-            scales: {
-                x: {
-                    grid: {
-                        color: 'rgba(71, 85, 105, 0.3)'
-                    },
-                    ticks: {
-                        color: '#94a3b8'
-                    }
-                },
-                y: {
-                    beginAtZero: true,
-                    grid: {
-                        color: 'rgba(71, 85, 105, 0.3)'
-                    },
-                    ticks: {
-                        color: '#94a3b8',
-                        stepSize: 1
-                    }
-                }
-            }
-        }
-    });
-}
-
-// 初始化重要性分布图
-function initImportanceChart() {
-    const ctx = document.getElementById('importance-chart');
-    if (!ctx) return;
-    
-    const byImportance = state.statistics?.by_importance || { '高': 0, '中': 0, '低': 0 };
-    
-    if (state.importanceChart) {
-        state.importanceChart.destroy();
-    }
-    
-    state.importanceChart = new Chart(ctx, {
+    state.charts.category = new Chart(categoryCtx, {
         type: 'doughnut',
         data: {
-            labels: ['高优先级', '中优先级', '低优先级'],
+            labels: ['国内', '国际'],
             datasets: [{
-                data: [byImportance['高'] || 0, byImportance['中'] || 0, byImportance['低'] || 0],
-                backgroundColor: [
-                    '#ef4444',
-                    '#f59e0b',
-                    '#22c55e'
-                ],
+                data: [data.domestic?.length || 0, data.international?.length || 0],
+                backgroundColor: ['#0066ff', '#6c757d'],
                 borderWidth: 0
             }]
         },
@@ -273,8 +170,111 @@ function initImportanceChart() {
             plugins: {
                 legend: {
                     position: 'bottom',
-                    labels: {
-                        color: '#94a3b8'
+                    labels: { 
+                        boxWidth: 12,
+                        padding: 8,
+                        font: { size: 11 }
+                    }
+                }
+            },
+            cutout: '60%'
+        }
+    });
+    
+    // 重要性分布
+    const importanceCtx = document.getElementById('importance-chart');
+    if (state.charts.importance) state.charts.importance.destroy();
+    
+    const allNews = [...(data.domestic || []), ...(data.international || [])];
+    const highCount = allNews.filter(n => n.importance === '高').length;
+    const mediumCount = allNews.filter(n => n.importance === '中').length;
+    const lowCount = allNews.filter(n => n.importance === '低').length;
+    
+    state.charts.importance = new Chart(importanceCtx, {
+        type: 'doughnut',
+        data: {
+            labels: ['高', '中', '低'],
+            datasets: [{
+                data: [highCount, mediumCount, lowCount],
+                backgroundColor: ['#dc3545', '#ffc107', '#28a745'],
+                borderWidth: 0
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: { 
+                        boxWidth: 12,
+                        padding: 8,
+                        font: { size: 11 }
+                    }
+                }
+            },
+            cutout: '60%'
+        }
+    });
+    
+    // 趋势图
+    const trendCtx = document.getElementById('trend-chart');
+    if (state.charts.trend) state.charts.trend.destroy();
+    
+    const byDate = state.statistics?.by_date?.slice(0, 7).reverse() || [];
+    
+    state.charts.trend = new Chart(trendCtx, {
+        type: 'line',
+        data: {
+            labels: byDate.map(d => {
+                const date = new Date(d.date);
+                return `${date.getMonth() + 1}/${date.getDate()}`;
+            }),
+            datasets: [
+                {
+                    label: '国内',
+                    data: byDate.map(d => d.domestic || 0),
+                    borderColor: '#0066ff',
+                    backgroundColor: 'rgba(0,102,255,0.1)',
+                    tension: 0.4,
+                    fill: true,
+                    pointRadius: 3
+                },
+                {
+                    label: '国际',
+                    data: byDate.map(d => d.international || 0),
+                    borderColor: '#6c757d',
+                    backgroundColor: 'rgba(108,117,125,0.1)',
+                    tension: 0.4,
+                    fill: true,
+                    pointRadius: 3
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: { 
+                        boxWidth: 12,
+                        padding: 8,
+                        font: { size: 11 }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    grid: { display: false },
+                    ticks: { font: { size: 10 } }
+                },
+                y: {
+                    beginAtZero: true,
+                    grid: { color: '#f0f0f0' },
+                    ticks: { 
+                        font: { size: 10 },
+                        stepSize: 5
                     }
                 }
             }
@@ -282,142 +282,53 @@ function initImportanceChart() {
     });
 }
 
-// 更新统计数据
-function updateStatistics() {
-    const stats = state.statistics || {};
-    
-    document.getElementById('stat-domestic').textContent = stats.total_domestic || 0;
-    document.getElementById('stat-international').textContent = stats.total_international || 0;
-    document.getElementById('stat-days').textContent = stats.total_days || 0;
-    document.getElementById('stat-high').textContent = stats.by_importance?.['高'] || 0;
-}
-
-// 初始化事件监听
-function initEventListeners() {
-    // 日期选择
-    document.getElementById('date-select').addEventListener('change', (e) => {
-        loadDailyNews(e.target.value);
-    });
-    
-    // 上一天
-    document.getElementById('prev-date').addEventListener('click', () => {
-        const currentIndex = state.dates.indexOf(state.currentDate);
-        if (currentIndex < state.dates.length - 1) {
-            loadDailyNews(state.dates[currentIndex + 1]);
-        }
-    });
-    
-    // 下一天
-    document.getElementById('next-date').addEventListener('click', () => {
-        const currentIndex = state.dates.indexOf(state.currentDate);
-        if (currentIndex > 0) {
-            loadDailyNews(state.dates[currentIndex - 1]);
-        }
-    });
-}
-
 // 加载演示数据
 function loadDemoData() {
-    const today = new Date().toISOString().split('T')[0];
+    const today = new Date();
+    const dateStr = today.toISOString().split('T')[0];
+    const month = today.getMonth() + 1;
+    const day = today.getDate();
     
-    state.dates = [today];
+    state.dates = [dateStr];
     state.statistics = {
-        total_days: 1,
-        total_domestic: 5,
-        total_international: 5,
-        by_importance: { '高': 4, '中': 4, '低': 2 },
-        by_date: [{ date: today, domestic: 5, international: 5 }]
+        by_date: [{ date: dateStr, domestic: 10, international: 12 }]
     };
     
-    populateDateSelector();
+    renderDateList();
+    document.getElementById('update-time').textContent = '演示数据';
     
-    // 演示新闻数据
-    const demoNews = {
+    const demoData = {
         domestic: [
-            {
-                index: 1,
-                title: "智谱AI开源AutoGLM项目",
-                summary: "12月9日消息，智谱AI宣布开源AutoGLM项目，经过32个月研发构建完整Phone Use能力框架，使AI能通过视觉理解手机界面完成点击、滑动等操作。",
-                importance: "高",
-                source: "智谱AI",
-                tags: ["智谱AI", "开源", "AutoGLM"]
-            },
-            {
-                index: 2,
-                title: "蚂蚁集团推出灵光网页版",
-                summary: "12月9日消息，蚂蚁集团正式推出全模态通用AI助手灵光网页版，延续\"30秒用自然语言生成小应用\"核心优势。",
-                importance: "高",
-                source: "蚂蚁集团",
-                tags: ["蚂蚁集团", "灵光", "AI助手"]
-            }
+            { index: 1, importance: '高', summary: `${month}月${day}日消息，智谱AI宣布开源AutoGLM项目，经过32个月研发构建完整Phone Use能力框架，使AI能通过视觉理解手机界面完成点击、滑动等操作，实现外卖下单、批量处理通知等自动化任务，系统主要在云端虚拟手机环境运行以保障隐私安全。` },
+            { index: 2, importance: '高', summary: `${month}月${day}日消息，蚂蚁集团正式推出全模态通用AI助手灵光网页版，延续"30秒用自然语言生成小应用"核心优势，实现与移动端数据创作同步。` },
+            { index: 3, importance: '高', summary: `${month}月${day}日消息，百度宣布文心一言升级至4.5版本，在代码生成、数学推理等方面性能大幅提升，API调用成本降低60%，用户数突破3亿。` },
+            { index: 4, importance: '中', summary: `${month}月${day}日消息，华为发布新一代昇腾910C AI训练芯片，算力达到640 TFLOPS，较上代提升80%，将大规模应用于国产AI服务器。` },
+            { index: 5, importance: '中', summary: `${month}月${day}日消息，阿里云宣布开源通义千问Qwen2.5-Max模型，1100亿参数版本在代码生成、数学推理任务上达到业界领先水平。` }
         ],
         international: [
-            {
-                index: 1,
-                title: "特朗普允许英伟达向中国出售H200芯片",
-                summary: "12月9日消息，美国总统特朗普宣布允许英伟达向中国出售H200人工智能芯片，但要求英伟达将25%的收益支付给美国政府。",
-                importance: "高",
-                source: "Reuters",
-                tags: ["英伟达", "AI芯片", "政策"]
-            },
-            {
-                index: 2,
-                title: "OpenAI推出o3推理模型",
-                summary: "12月9日消息，OpenAI正式发布o3系列推理模型，在复杂推理任务上表现出色，成为目前最强大的AI推理模型之一。",
-                importance: "高",
-                source: "OpenAI",
-                tags: ["OpenAI", "o3", "推理模型"]
-            }
+            { index: 1, importance: '高', summary: `${month}月${day}日消息，据美国多家媒体证实，美国总统特朗普宣布允许英伟达向中国出售H200人工智能芯片，但要求英伟达将25%的收益支付给美国政府。H200性能约为H20的6-13倍，但仍落后于最新的Blackwell架构。此项政策同样适用于AMD、英特尔等其他美国芯片公司，商务部正在敲定相关细节。` },
+            { index: 2, importance: '高', summary: `${month}月${day}日消息，OpenAI正式发布GPT-5大语言模型，采用全新混合架构，在推理、编程、多模态理解等方面实现重大突破，上下文窗口扩展至100万tokens。` },
+            { index: 3, importance: '高', summary: `${month}月${day}日消息，欧盟《人工智能法案》正式全面生效，成为全球首部全面监管AI的立法，高风险AI系统需在6个月内完成合规，违规企业将面临最高3500万欧元罚款。` },
+            { index: 4, importance: '中', summary: `${month}月${day}日消息，谷歌DeepMind发布Gemini 2.5 Ultra多模态大模型，在数学、科学推理、代码生成等任务上超越GPT-5基准版。` },
+            { index: 5, importance: '中', summary: `${month}月${day}日消息，Meta正式开源Llama 4系列模型，包含8B到400B多个规格，采用混合专家架构，24小时内下载量突破100万次。` }
         ],
-        summary: "今日共采集到5条国内动态和5条国际动态。重点关注：智谱AI开源AutoGLM; 特朗普允许H200对华出口; OpenAI发布o3模型。"
+        statistics: { raw_total: 113 }
     };
     
-    renderNews('domestic-news', demoNews.domestic, '国内');
-    renderNews('international-news', demoNews.international, '国际');
-    document.getElementById('daily-summary').textContent = demoNews.summary;
+    document.getElementById('current-date').textContent = 
+        `${today.getFullYear()}年${month}月${day}日 AI动态`;
+    document.getElementById('stat-domestic').textContent = demoData.domestic.length;
+    document.getElementById('stat-international').textContent = demoData.international.length;
+    document.getElementById('total-news').textContent = 
+        demoData.domestic.length + demoData.international.length;
+    document.getElementById('raw-news').textContent = demoData.statistics.raw_total;
     
-    console.log('📦 已加载演示数据');
+    renderNews('domestic-news', demoData.domestic);
+    renderNews('international-news', demoData.international);
+    updateCharts(demoData);
 }
 
-// 显示空状态
-function showEmptyState() {
-    const emptyHtml = `
-        <div class="empty-state">
-            <div class="icon">📭</div>
-            <p>暂无数据，请等待自动更新</p>
-        </div>
-    `;
-    
-    document.getElementById('domestic-news').innerHTML = emptyHtml;
-    document.getElementById('international-news').innerHTML = emptyHtml;
-}
-
-// 显示错误
-function showError(message) {
-    const errorHtml = `
-        <div class="empty-state">
-            <div class="icon">❌</div>
-            <p>${message}</p>
-        </div>
-    `;
-    
-    document.getElementById('domestic-news').innerHTML = errorHtml;
-    document.getElementById('international-news').innerHTML = errorHtml;
-}
-
-// 工具函数：格式化日期
-function formatDate(dateStr) {
-    const date = new Date(dateStr);
-    const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
-    return date.toLocaleDateString('zh-CN', options);
-}
-
-function formatDateShort(dateStr) {
-    const date = new Date(dateStr);
-    return `${date.getMonth() + 1}/${date.getDate()}`;
-}
-
-// 工具函数：HTML转义
+// HTML转义
 function escapeHtml(text) {
     if (!text) return '';
     const div = document.createElement('div');
