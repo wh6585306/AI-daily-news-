@@ -372,21 +372,22 @@ def run_with_demo_data():
         }
     ]
     
-    # 精简版数据（每类5条）- 严格对标用户例子句式
+    # 精简版数据（每类5条）- 严格固定句式：X月X日消息，[主体][动作]，[效果]。
+    # 注意：这是演示数据，非真实新闻
     demo_domestic_brief = [
-        {"index": 1, "importance": "高", "summary": f"{month_day}消息，国务院正式发布《人工智能产业高质量发展行动计划（2024-2027）》，提出到2027年我国人工智能核心产业规模超过万亿元，培育10家以上具有国际竞争力的AI企业，形成完整的人工智能产业链。"},
-        {"index": 2, "importance": "高", "summary": f"{month_day}消息，智谱AI正式发布新一代基座大模型GLM-5，参数规模达到1.8万亿在多项权威基准测试中超越GPT-4 Turbo，支持128K超长上下文并向开发者开放API接口。"},
-        {"index": 3, "importance": "高", "summary": f"{month_day}消息，百度在AI开发者大会上发布文心一言5.0版本和ERNIE 4.5 Turbo模型，推理速度提升3倍API调用成本降低60%，用户数突破3亿。"},
-        {"index": 4, "importance": "高", "summary": f"{month_day}消息，华为正式发布新一代昇腾910C AI训练芯片，采用先进制程工艺算力达到640 TFLOPS较上代提升80%，将大规模应用于国产AI服务器和智算中心。"},
-        {"index": 5, "importance": "高", "summary": f"{month_day}消息，阿里云宣布开源通义千问Qwen2.5-Max模型，提供1100亿参数版本在代码生成、数学推理等任务上达到业界领先水平，已在Hugging Face平台开放下载。"}
+        {"index": 1, "importance": "高", "summary": f"{month_day}消息，国务院发布《人工智能产业高质量发展行动计划》，提出2027年AI核心产业规模超万亿元，培育10家以上国际竞争力企业。"},
+        {"index": 2, "importance": "高", "summary": f"{month_day}消息，智谱AI发布GLM-5基座大模型，参数规模1.8万亿在权威测试中超越GPT-4 Turbo，支持128K上下文。"},
+        {"index": 3, "importance": "高", "summary": f"{month_day}消息，百度发布文心一言5.0版本，推理速度提升3倍API成本降低60%，用户数突破3亿。"},
+        {"index": 4, "importance": "高", "summary": f"{month_day}消息，华为发布昇腾910C训练芯片，算力达640TFLOPS较上代提升80%，将应用于国产智算中心。"},
+        {"index": 5, "importance": "高", "summary": f"{month_day}消息，阿里云开源通义千问Qwen2.5-Max模型，1100亿参数在代码和数学任务达业界领先。"}
     ]
     
     demo_international_brief = [
-        {"index": 1, "importance": "高", "summary": f"{month_day}消息，美国商务部工业与安全局发布更新的半导体出口管制规则，将AI芯片出口限制扩展至更多国家和地区，收紧对先进制造设备的管控，新规将于90天后正式生效。"},
-        {"index": 2, "importance": "高", "summary": f"{month_day}消息，OpenAI正式发布GPT-5大语言模型，采用全新混合架构在推理、编程、多模态理解等方面实现重大突破，上下文窗口扩展至100万tokens，首席执行官奥特曼称其为迈向通用人工智能的关键一步。"},
-        {"index": 3, "importance": "高", "summary": f"{month_day}消息，英伟达在GTC大会上发布新一代Blackwell Ultra人工智能芯片，单卡算力达到40PFLOPS较H100提升5倍，预计明年第一季度实现量产。"},
-        {"index": 4, "importance": "高", "summary": f"{month_day}消息，欧盟《人工智能法案》正式全面生效成为全球首部全面监管人工智能的立法，高风险AI系统需在6个月内完成合规审查，违规企业将面临最高3500万欧元罚款。"},
-        {"index": 5, "importance": "高", "summary": f"{month_day}消息，Meta正式开源Llama 4系列大语言模型，包含80亿到4000亿参数多个规格版本采用混合专家架构，发布24小时内下载量突破100万次。"}
+        {"index": 1, "importance": "高", "summary": f"{month_day}消息，美国商务部发布半导体出口新规，扩大AI芯片限制范围收紧制造设备管控，90天后生效。"},
+        {"index": 2, "importance": "高", "summary": f"{month_day}消息，OpenAI发布GPT-5大模型，采用混合架构实现推理编程重大突破，上下文扩至100万tokens。"},
+        {"index": 3, "importance": "高", "summary": f"{month_day}消息，英伟达发布Blackwell Ultra芯片，算力40PFLOPS较H100提升5倍，明年一季度量产。"},
+        {"index": 4, "importance": "高", "summary": f"{month_day}消息，欧盟AI法案全面生效成全球首部AI监管立法，违规企业面临最高3500万欧元罚款。"},
+        {"index": 5, "importance": "高", "summary": f"{month_day}消息，Meta开源Llama 4系列模型，含80亿至4000亿参数版本，24小时下载破百万。"}
     ]
     
     demo_data = {
