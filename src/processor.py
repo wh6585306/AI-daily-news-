@@ -131,6 +131,8 @@ class NewsProcessor:
     def process_news(self, raw_news: Dict[str, List[Dict]]) -> Dict[str, Any]:
         """处理原始新闻数据（100+条 -> 5-20条精选）"""
         today = datetime.now().strftime("%Y-%m-%d")
+        month = datetime.now().month
+        day = datetime.now().day
         
         # 统计原始数据
         raw_domestic_count = len(raw_news.get("domestic", []))
@@ -179,7 +181,16 @@ class NewsProcessor:
             result["domestic"] = self._rule_based_process(domestic_scored)
             result["international"] = self._rule_based_process(international_scored)
         
-        # 步骤3: 生成总结
+        # 步骤3: 翻译国际新闻为中文
+        print("\n🌐 步骤3: 翻译国际新闻...")
+        result["international"] = self._translate_international_news(result["international"])
+        
+        # 步骤4: 生成精简版（每类3-8条）
+        print("\n📝 步骤4: 生成精简版...")
+        result["domestic_brief"] = self._generate_brief(result["domestic"], 5)
+        result["international_brief"] = self._generate_brief(result["international"], 5)
+        
+        # 步骤5: 生成总结
         result["summary"] = self._generate_summary(result)
         
         # 更新统计
@@ -187,6 +198,72 @@ class NewsProcessor:
         result["statistics"]["final_international"] = len(result["international"])
         
         return result
+    
+    def _translate_international_news(self, news_list: List[Dict]) -> List[Dict]:
+        """翻译国际新闻为中文"""
+        if not news_list:
+            return news_list
+        
+        today = datetime.now()
+        month_day = f"{today.month}月{today.day}日"
+        
+        for news in news_list:
+            summary = news.get("summary", "")
+            # 如果是英文摘要，尝试用LLM翻译
+            if self.client and summary and not self._is_chinese(summary):
+                try:
+                    translated = self._translate_with_llm(summary, month_day)
+                    if translated:
+                        news["summary"] = translated
+                except:
+                    # 翻译失败时保持原文
+                    pass
+            # 确保格式正确
+            if not news.get("summary", "").startswith(f"{today.month}月"):
+                news["summary"] = f"{month_day}消息，{news.get('summary', '')}"
+        
+        return news_list
+    
+    def _is_chinese(self, text: str) -> bool:
+        """检查文本是否主要是中文"""
+        if not text:
+            return False
+        chinese_count = sum(1 for c in text if '\u4e00' <= c <= '\u9fff')
+        return chinese_count > len(text) * 0.3
+    
+    def _translate_with_llm(self, text: str, month_day: str) -> str:
+        """使用LLM翻译英文为中文"""
+        try:
+            response = self.client.chat.completions.create(
+                model=self.model,
+                messages=[
+                    {"role": "system", "content": "你是专业的AI新闻翻译，将英文新闻翻译成简洁流畅的中文。"},
+                    {"role": "user", "content": f"将以下新闻翻译成中文，以'{month_day}消息，'开头，保持简洁专业：\n\n{text[:500]}"}
+                ],
+                temperature=0.3,
+                max_tokens=300
+            )
+            return response.choices[0].message.content.strip()
+        except:
+            return None
+    
+    def _generate_brief(self, news_list: List[Dict], count: int = 5) -> List[Dict]:
+        """生成精简版（纯文字，3-8条）"""
+        brief = []
+        # 优先选择高重要性的
+        high = [n for n in news_list if n.get("importance") == "高"]
+        medium = [n for n in news_list if n.get("importance") == "中"]
+        
+        selected = (high + medium)[:count]
+        
+        for i, news in enumerate(selected):
+            brief.append({
+                "index": i + 1,
+                "summary": news.get("summary", ""),
+                "importance": news.get("importance", "中")
+            })
+        
+        return brief
     
     def _process_with_llm(self, scored_news: List[Dict], category: str) -> List[Dict]:
         """使用LLM处理已评分的新闻"""
@@ -366,6 +443,37 @@ class NewsProcessor:
         stats = processed_data.get("statistics", {})
         lines.append(f"数据来源: 从 {stats.get('raw_total', 0)} 条原始信息中精选")
         lines.append("=" * 70)
+        lines.append("")
+        
+        # ========== 精简版 ==========
+        lines.append("╔" + "═" * 68 + "╗")
+        lines.append("║" + " " * 25 + "📋 精简版报告" + " " * 26 + "║")
+        lines.append("╚" + "═" * 68 + "╝")
+        lines.append("")
+        
+        # 精简版国内动态
+        lines.append("国内动态：")
+        domestic_brief = processed_data.get("domestic_brief", processed_data.get("domestic", [])[:5])
+        for i, news in enumerate(domestic_brief[:8]):
+            idx = news.get("index", i + 1)
+            summary = news.get("summary", "")
+            lines.append(f"{idx}、{summary}")
+        lines.append("")
+        
+        # 精简版国际动态
+        lines.append("国际动态：")
+        international_brief = processed_data.get("international_brief", processed_data.get("international", [])[:5])
+        for i, news in enumerate(international_brief[:8]):
+            idx = news.get("index", i + 1)
+            summary = news.get("summary", "")
+            lines.append(f"{idx}、{summary}")
+        lines.append("")
+        lines.append("")
+        
+        # ========== 完整版 ==========
+        lines.append("╔" + "═" * 68 + "╗")
+        lines.append("║" + " " * 25 + "📰 完整版报告" + " " * 26 + "║")
+        lines.append("╚" + "═" * 68 + "╝")
         lines.append("")
         
         # 国内动态

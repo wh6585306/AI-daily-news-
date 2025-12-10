@@ -78,6 +78,38 @@ body {
     color: var(--text-light);
 }
 
+.header-center {
+    display: flex;
+    align-items: center;
+}
+
+.view-toggle {
+    display: flex;
+    background: rgba(255,255,255,0.1);
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.toggle-btn {
+    background: transparent;
+    border: none;
+    color: #adb5bd;
+    padding: 8px 16px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.toggle-btn:hover {
+    color: #fff;
+}
+
+.toggle-btn.active {
+    background: var(--accent);
+    color: #fff;
+}
+
 .header-right {
     font-size: 13px;
     color: var(--text-light);
@@ -292,6 +324,72 @@ body {
 
 .news-meta a:hover {
     text-decoration: underline;
+}
+
+/* ==================== 视图切换 ==================== */
+.news-view {
+    display: none;
+}
+
+.news-view.active {
+    display: block;
+}
+
+/* ==================== 精简版样式 ==================== */
+.brief-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.brief-section {
+    background: var(--bg-secondary);
+    border-radius: var(--radius);
+    padding: 24px;
+    box-shadow: var(--shadow);
+}
+
+.brief-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.brief-title::before {
+    content: '';
+    width: 4px;
+    height: 16px;
+    background: var(--accent);
+    border-radius: 2px;
+}
+
+.brief-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.brief-item {
+    display: flex;
+    gap: 12px;
+    line-height: 1.9;
+}
+
+.brief-index {
+    flex-shrink: 0;
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.brief-text {
+    color: var(--text-primary);
+    font-size: 14px;
 }
 
 /* ==================== 右侧数据看板 ==================== */

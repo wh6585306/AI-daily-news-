@@ -12,11 +12,21 @@ let state = {
     currentDate: null,
     dates: [],
     statistics: null,
-    charts: {}
+    charts: {},
+    currentView: 'brief'
 };
 
 // 初始化
 document.addEventListener('DOMContentLoaded', async () => {
+    // 绑定视图切换
+    document.querySelectorAll('.toggle-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            switchView(btn.dataset.view);
+        });
+    });
+
     try {
         await loadIndex();
         if (state.dates.length > 0) {
@@ -27,6 +37,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         loadDemoData();
     }
 });
+
+// 切换视图
+function switchView(view) {
+    state.currentView = view;
+    document.querySelectorAll('.news-view').forEach(v => v.classList.remove('active'));
+    document.getElementById(`view-${view}`).classList.add('active');
+}
 
 // 加载索引
 async function loadIndex() {
@@ -83,6 +100,8 @@ async function loadDailyNews(date) {
     // 显示加载状态
     document.getElementById('domestic-news').innerHTML = '<div class="loading-text">加载中...</div>';
     document.getElementById('international-news').innerHTML = '<div class="loading-text">加载中...</div>';
+    document.getElementById('domestic-brief').innerHTML = '<div class="loading-text">加载中...</div>';
+    document.getElementById('international-brief').innerHTML = '<div class="loading-text">加载中...</div>';
     
     try {
         const response = await fetch(`${CONFIG.dataPath}/${CONFIG.dailyPath}/${date}.json`);
@@ -103,9 +122,13 @@ async function loadDailyNews(date) {
         document.getElementById('raw-news').textContent = 
             data.statistics?.raw_total || '--';
         
-        // 渲染新闻
+        // 渲染完整版
         renderNews('domestic-news', data.domestic || []);
         renderNews('international-news', data.international || []);
+        
+        // 渲染精简版
+        renderBrief('domestic-brief', data.domestic_brief || data.domestic?.slice(0, 5) || []);
+        renderBrief('international-brief', data.international_brief || data.international?.slice(0, 5) || []);
         
         // 更新图表
         updateCharts(data);
@@ -114,10 +137,39 @@ async function loadDailyNews(date) {
         console.error('加载失败:', error);
         document.getElementById('domestic-news').innerHTML = '<div class="empty-state">暂无数据</div>';
         document.getElementById('international-news').innerHTML = '<div class="empty-state">暂无数据</div>';
+        document.getElementById('domestic-brief').innerHTML = '<div class="empty-state">暂无数据</div>';
+        document.getElementById('international-brief').innerHTML = '<div class="empty-state">暂无数据</div>';
     }
 }
 
-// 渲染新闻列表
+// 渲染精简版列表
+function renderBrief(containerId, newsList) {
+    const container = document.getElementById(containerId);
+    
+    if (!newsList || newsList.length === 0) {
+        container.innerHTML = '<div class="empty-state">暂无动态</div>';
+        return;
+    }
+    
+    container.innerHTML = newsList.map((news, idx) => {
+        // 提取核心摘要内容
+        let summary = news.summary || '';
+        // 确保格式正确
+        if (!summary.includes('消息，')) {
+            const d = new Date(state.currentDate);
+            summary = `${d.getMonth() + 1}月${d.getDate()}日消息，${summary}`;
+        }
+        
+        return `
+            <div class="brief-item">
+                <span class="brief-index">${news.index || (idx + 1)}、</span>
+                <span class="brief-text">${escapeHtml(summary)}</span>
+            </div>
+        `;
+    }).join('');
+}
+
+// 渲染完整版新闻列表
 function renderNews(containerId, newsList) {
     const container = document.getElementById(containerId);
     
@@ -312,6 +364,16 @@ function loadDemoData() {
             { index: 4, importance: '中', summary: `${month}月${day}日消息，谷歌DeepMind发布Gemini 2.5 Ultra多模态大模型，在数学、科学推理、代码生成等任务上超越GPT-5基准版。` },
             { index: 5, importance: '中', summary: `${month}月${day}日消息，Meta正式开源Llama 4系列模型，包含8B到400B多个规格，采用混合专家架构，24小时内下载量突破100万次。` }
         ],
+        domestic_brief: [
+            { index: 1, importance: '高', summary: `${month}月${day}日消息，智谱AI宣布开源AutoGLM项目，经过32个月研发构建完整Phone Use能力框架，使AI能通过视觉理解手机界面完成点击、滑动等操作，实现外卖下单、批量处理通知等自动化任务。` },
+            { index: 2, importance: '高', summary: `${month}月${day}日消息，蚂蚁集团正式推出全模态通用AI助手灵光网页版，延续"30秒用自然语言生成小应用"核心优势。` },
+            { index: 3, importance: '高', summary: `${month}月${day}日消息，百度宣布文心一言升级至4.5版本，API调用成本降低60%，用户数突破3亿。` }
+        ],
+        international_brief: [
+            { index: 1, importance: '高', summary: `${month}月${day}日消息，美国总统特朗普宣布允许英伟达向中国出售H200人工智能芯片，但要求英伟达将25%的收益支付给美国政府。` },
+            { index: 2, importance: '高', summary: `${month}月${day}日消息，OpenAI正式发布GPT-5大语言模型，采用全新混合架构，上下文窗口扩展至100万tokens。` },
+            { index: 3, importance: '高', summary: `${month}月${day}日消息，欧盟《人工智能法案》正式全面生效，违规企业将面临最高3500万欧元罚款。` }
+        ],
         statistics: { raw_total: 113 }
     };
     
@@ -325,6 +387,8 @@ function loadDemoData() {
     
     renderNews('domestic-news', demoData.domestic);
     renderNews('international-news', demoData.international);
+    renderBrief('domestic-brief', demoData.domestic_brief);
+    renderBrief('international-brief', demoData.international_brief);
     updateCharts(demoData);
 }
 

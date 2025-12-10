@@ -18,6 +18,12 @@
                 </div>
                 <span class="logo-subtitle">每日AI动态报送</span>
             </div>
+            <div class="header-center">
+                <div class="view-toggle">
+                    <button class="toggle-btn active" data-view="brief">精简版</button>
+                    <button class="toggle-btn" data-view="full">完整版</button>
+                </div>
+            </div>
             <div class="header-right">
                 <span class="update-time" id="update-time">--</span>
             </div>
@@ -44,20 +50,30 @@
                     </div>
                 </div>
 
-                <div class="news-container" id="news-container">
-                    <!-- 国内动态 -->
-                    <div class="news-section">
-                        <h2 class="section-title">国内动态</h2>
-                        <div class="news-list" id="domestic-news">
-                            <div class="loading-text">加载中...</div>
+                <!-- 精简版视图 -->
+                <div id="view-brief" class="news-view active">
+                    <div class="brief-container">
+                        <div class="brief-section">
+                            <h2 class="brief-title">国内动态</h2>
+                            <div class="brief-list" id="domestic-brief"></div>
+                        </div>
+                        <div class="brief-section">
+                            <h2 class="brief-title">国际动态</h2>
+                            <div class="brief-list" id="international-brief"></div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- 国际动态 -->
-                    <div class="news-section">
-                        <h2 class="section-title">国际动态</h2>
-                        <div class="news-list" id="international-news">
-                            <div class="loading-text">加载中...</div>
+                <!-- 完整版视图 -->
+                <div id="view-full" class="news-view">
+                    <div class="news-container">
+                        <div class="news-section">
+                            <h2 class="section-title">国内动态</h2>
+                            <div class="news-list" id="domestic-news"></div>
+                        </div>
+                        <div class="news-section">
+                            <h2 class="section-title">国际动态</h2>
+                            <div class="news-list" id="international-news"></div>
                         </div>
                     </div>
                 </div>
@@ -67,7 +83,6 @@
             <aside class="sidebar-right">
                 <div class="sidebar-title">数据看板</div>
                 
-                <!-- 统计卡片 -->
                 <div class="dashboard-card">
                     <div class="card-title">今日统计</div>
                     <div class="stats-grid">
@@ -82,7 +97,6 @@
                     </div>
                 </div>
 
-                <!-- 分类占比 -->
                 <div class="dashboard-card">
                     <div class="card-title">分类占比</div>
                     <div class="chart-container">
@@ -90,7 +104,6 @@
                     </div>
                 </div>
 
-                <!-- 重要性分布 -->
                 <div class="dashboard-card">
                     <div class="card-title">重要性分布</div>
                     <div class="chart-container">
@@ -98,7 +111,6 @@
                     </div>
                 </div>
 
-                <!-- 趋势图 -->
                 <div class="dashboard-card">
                     <div class="card-title">近7日趋势</div>
                     <div class="chart-container chart-large">
@@ -108,7 +120,6 @@
             </aside>
         </main>
 
-        <!-- 底部 -->
         <footer class="footer">
             <span>AI Daily News © 2025</span>
             <span class="footer-divider">|</span>

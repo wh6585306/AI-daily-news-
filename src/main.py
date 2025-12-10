@@ -372,11 +372,30 @@ def run_with_demo_data():
         }
     ]
     
+    # 精简版数据（每类5条）
+    demo_domestic_brief = [
+        {"index": 1, "importance": "高", "summary": f"{month_day}消息，国务院正式发布《人工智能产业高质量发展行动计划（2024-2027）》，提出到2027年我国人工智能核心产业规模超过万亿元。"},
+        {"index": 2, "importance": "高", "summary": f"{month_day}消息，智谱AI正式发布新一代基座大模型GLM-5，参数规模达到1.8万亿，在多项权威基准测试中超越GPT-4 Turbo。"},
+        {"index": 3, "importance": "高", "summary": f"{month_day}消息，百度发布文心一言5.0版本和ERNIE 4.5 Turbo模型，API调用成本降低60%，用户数突破3亿。"},
+        {"index": 4, "importance": "高", "summary": f"{month_day}消息，华为正式发布新一代昇腾910C AI训练芯片，算力达到640 TFLOPS，较上代提升80%。"},
+        {"index": 5, "importance": "高", "summary": f"{month_day}消息，阿里云宣布开源通义千问Qwen2.5-Max模型，1100亿参数版本在代码生成、数学推理等任务上达到业界领先。"}
+    ]
+    
+    demo_international_brief = [
+        {"index": 1, "importance": "高", "summary": f"{month_day}消息，美国商务部工业与安全局发布更新的半导体出口管制规则，将AI芯片出口限制扩展至更多国家和地区。"},
+        {"index": 2, "importance": "高", "summary": f"{month_day}消息，OpenAI正式发布GPT-5大语言模型，采用全新混合架构，上下文窗口扩展至100万tokens。"},
+        {"index": 3, "importance": "高", "summary": f"{month_day}消息，英伟达发布新一代Blackwell Ultra AI芯片，算力达到40 PFLOPS，较H100提升5倍。"},
+        {"index": 4, "importance": "高", "summary": f"{month_day}消息，欧盟《人工智能法案》正式全面生效，成为全球首部全面监管AI的立法。"},
+        {"index": 5, "importance": "高", "summary": f"{month_day}消息，Meta正式开源Llama 4系列模型，包含8B到400B多个规格，24小时内下载量突破100万次。"}
+    ]
+    
     demo_data = {
         "date": today,
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S"),
         "domestic": demo_domestic,
         "international": demo_international,
+        "domestic_brief": demo_domestic_brief,
+        "international_brief": demo_international_brief,
         "summary": f"今日从{raw_stats['raw_total']}条原始信息中精选出{len(demo_domestic)}条国内动态和{len(demo_international)}条国际动态，其中12条为高重要性。重点关注：国务院发布AI产业规划；美国更新芯片出口管制；OpenAI发布GPT-5。",
         "statistics": {
             **raw_stats,
