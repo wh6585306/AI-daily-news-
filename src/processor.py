@@ -280,9 +280,26 @@ class NewsProcessor:
             for i, n in enumerate(scored_news[:30])
         ])
         
+        today = datetime.now()
+        today_str = f"{today.month}月{today.day}日"
+        
+        # 根据类别确定分类要求
+        if category == "国内":
+            location_hint = "中国公司、中国政府、中国研究机构的新闻，或发生在中国的AI相关事件"
+            exclude_hint = "排除美国、欧盟、日韩等海外公司/政府/机构的新闻"
+        else:
+            location_hint = "美国、欧盟、日韩等海外公司、政府、研究机构的新闻，或发生在海外的AI相关事件"
+            exclude_hint = "排除中国公司/政府/机构的新闻（如华为、百度、阿里、腾讯、智谱AI等）"
+        
         prompt = f"""你是一位资深的AI行业首席分析师，专注于全球AI产业动态、政策法规、学术突破和商业发展。
 
-请分析以下{category}AI新闻，执行以下任务：
+请分析以下新闻，筛选出属于【{category}动态】的新闻。
+
+## 分类标准（非常重要！）：
+- {category}动态是指：{location_hint}
+- {exclude_hint}
+- 如果新闻主体是海外公司（如英伟达、OpenAI、谷歌、Meta等），即使涉及中国，也应归类为【国际动态】
+- 如果新闻主体是中国公司（如华为、百度、阿里、字节跳动等），应归类为【国内动态】
 
 ## 筛选标准（按重要性排序）：
 1. 🔴 **重大政策与法规**: 政府行政令、AI法案、制裁禁令、出口管制、反垄断调查
@@ -292,11 +309,11 @@ class NewsProcessor:
 5. 🔵 **安全与伦理**: AI安全事件、重大伦理争议
 
 ## 输出要求：
-- 从中筛选 {MIN_NEWS_PER_CATEGORY}-{MAX_NEWS_PER_CATEGORY} 条最重要的新闻
+- 只筛选真正属于【{category}动态】的新闻，数量 {MIN_NEWS_PER_CATEGORY}-{MAX_NEWS_PER_CATEGORY} 条
 - 严格按重要性排序（最重要的排在最前面）
-- 为每条新闻撰写专业摘要（80-150字），格式："X月X日消息，[核心内容]..."
+- 摘要格式必须是："{today_str}消息，[主体][动作]，[效果/细节]。"
+- 摘要必须是完整一句话，80-120字，全中文，不要英文
 - 标注重要性等级：高(必读)/中(重要)/低(关注)
-- 提取3-5个标签
 
 ## 新闻列表:
 {news_text}
@@ -307,19 +324,19 @@ class NewsProcessor:
         {{
             "index": 1,
             "title": "新闻标题",
-            "summary": "专业摘要（80-150字）",
+            "summary": "{today_str}消息，[主体][动作]，[效果]。",
             "importance": "高/中/低",
-            "reason": "入选理由（简短说明为何重要）",
+            "reason": "入选理由",
             "tags": ["标签1", "标签2", "标签3"]
         }}
-    ],
-    "analysis": "整体分析（2-3句话概括今日{category}AI动态趋势）"
+    ]
 }}
 
 重要提示：
 - 只返回纯JSON，不要包含markdown代码块
-- 至少返回{MIN_NEWS_PER_CATEGORY}条新闻
-- 优先选择涉及政策、产品发布、学术突破的新闻
+- 严格按分类标准筛选，不符合【{category}动态】的新闻不要选
+- 摘要必须以"{today_str}消息，"开头
+- 全部使用中文
 """
         
         try:

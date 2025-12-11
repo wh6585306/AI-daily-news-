@@ -96,6 +96,11 @@ class NewsCollector:
         results["domestic"] = self._filter_ai_news(results["domestic"])
         results["international"] = self._filter_ai_news(results["international"])
         
+        # 过滤日期（只保留近2天的新闻）
+        print("📅 过滤日期...")
+        results["domestic"] = self._filter_by_date(results["domestic"])
+        results["international"] = self._filter_by_date(results["international"])
+        
         # 去重
         print("🔄 去重处理...")
         results["domestic"] = self._deduplicate(results["domestic"])
@@ -274,6 +279,25 @@ class NewsCollector:
                     unique_news.append(news)
         
         return unique_news
+    
+    def _filter_by_date(self, news_list: List[Dict]) -> List[Dict]:
+        """过滤日期（只保留近2天的新闻）"""
+        today = datetime.now()
+        yesterday = today - timedelta(days=1)
+        valid_dates = {today.strftime("%Y-%m-%d"), yesterday.strftime("%Y-%m-%d")}
+        
+        filtered = []
+        for news in news_list:
+            pub_date = news.get("pub_date", "")
+            if pub_date:
+                news_date = pub_date[:10]  # 提取日期部分 YYYY-MM-DD
+                if news_date in valid_dates:
+                    filtered.append(news)
+            else:
+                # 没有日期的默认保留（可能是重要新闻）
+                filtered.append(news)
+        
+        return filtered
     
     def _sort_by_time(self, news_list: List[Dict]) -> List[Dict]:
         """按时间排序（最新的在前）"""
