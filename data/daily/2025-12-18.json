@@ -1,6 +1,6 @@
 {
   "date": "2025-12-18",
-  "generated_at": "2025-12-18 08:13:14",
+  "generated_at": "2025-12-18 08:18:41",
   "domestic": [
     {
       "index": 1,
@@ -9,11 +9,11 @@
       "importance": "高",
       "reason": "影响力评分: 361.5",
       "tags": [
-        "风险",
         "突破",
-        "上线",
         "创新",
-        "超越"
+        "超越",
+        "风险",
+        "上线"
       ],
       "url": "https://36kr.com/p/3600592185819399?f=rss",
       "source": "36氪",
@@ -27,11 +27,11 @@
       "importance": "高",
       "reason": "影响力评分: 345.0",
       "tags": [
-        "合作",
-        "融资",
+        "大模型",
         "突破",
+        "估值",
         "开源",
-        "估值"
+        "创新"
       ],
       "url": "https://www.leiphone.com/category/industrynews/PrDPHQ8DCMGZHVDd.html",
       "source": "AI科技评论",
@@ -45,9 +45,9 @@
       "importance": "高",
       "reason": "影响力评分: 307.5",
       "tags": [
+        "收购",
         "并购",
         "发布",
-        "收购",
         "上市"
       ],
       "url": "https://36kr.com/p/3600585711157249?f=rss",
@@ -62,9 +62,9 @@
       "importance": "高",
       "reason": "影响力评分: 285.0",
       "tags": [
-        "发布",
         "Gemini 3",
-        "AI"
+        "AI",
+        "发布"
       ],
       "url": "https://www.jiqizhixin.com/articles/2025-12-17-10",
       "source": "机器之心",
@@ -78,8 +78,8 @@
       "importance": "高",
       "reason": "影响力评分: 270.0",
       "tags": [
-        "上线",
-        "Gemini 3"
+        "Gemini 3",
+        "上线"
       ],
       "url": "https://www.jiqizhixin.com/articles/2025-12-18-2",
       "source": "机器之心",
@@ -93,10 +93,10 @@
       "importance": "高",
       "reason": "影响力评分: 260.0",
       "tags": [
-        "融资",
-        "百亿",
         "正式推出",
-        "上市"
+        "百亿",
+        "上市",
+        "融资"
       ],
       "url": "https://www.leiphone.com/category/weiwu/8vCty5pPN5rXlMPf.html",
       "source": "AI科技评论",
@@ -110,10 +110,10 @@
       "importance": "高",
       "reason": "影响力评分: 256.0",
       "tags": [
-        "融资",
-        "突破",
         "投资",
-        "首次"
+        "首次",
+        "融资",
+        "突破"
       ],
       "url": "https://36kr.com/p/3599523143925768?f=rss",
       "source": "36氪",
@@ -127,10 +127,10 @@
       "importance": "高",
       "reason": "影响力评分: 236.0",
       "tags": [
-        "融资",
         "百亿",
-        "突破",
-        "首次"
+        "首次",
+        "融资",
+        "突破"
       ],
       "url": "https://36kr.com/newsflashes/3600750313750529?f=rss",
       "source": "36氪",
@@ -145,8 +145,8 @@
       "reason": "影响力评分: 236.0",
       "tags": [
         "上线",
-        "突破",
-        "创新"
+        "创新",
+        "突破"
       ],
       "url": "https://36kr.com/p/3600431910895617?f=rss",
       "source": "36氪",
@@ -160,10 +160,10 @@
       "importance": "高",
       "reason": "影响力评分: 236.0",
       "tags": [
-        "上市",
         "百亿",
-        "突破",
-        "创新"
+        "上市",
+        "创新",
+        "突破"
       ],
       "url": "https://36kr.com/p/3599799092035845?f=rss",
       "source": "36氪",
@@ -192,11 +192,11 @@
       "importance": "高",
       "reason": "影响力评分: 225.0",
       "tags": [
-        "IPO",
-        "AGI",
-        "上市",
         "大模型",
-        "AI"
+        "上市",
+        "AGI",
+        "AI",
+        "IPO"
       ],
       "url": "https://36kr.com/newsflashes/3600727187652871?f=rss",
       "source": "36氪",
@@ -210,11 +210,11 @@
       "importance": "高",
       "reason": "影响力评分: 225.0",
       "tags": [
-        "合作",
         "发布",
-        "大模型",
+        "首次",
         "开源",
-        "首次"
+        "合作",
+        "大模型"
       ],
       "url": "https://www.leiphone.com/category/zaobao/xTHKY2d4hyyAa7Nr.html",
       "source": "AI科技评论",
@@ -231,8 +231,8 @@
         "发布",
         "突破",
         "开源",
-        "大模型",
-        "创新"
+        "创新",
+        "大模型"
       ],
       "url": "https://www.leiphone.com/category/chips/dVSDZV4m2b6NA7zf.html",
       "source": "AI科技评论",
@@ -246,8 +246,8 @@
       "importance": "高",
       "reason": "影响力评分: 195.0",
       "tags": [
-        "上市",
-        "投资"
+        "投资",
+        "上市"
       ],
       "url": "https://36kr.com/newsflashes/3600727791452416?f=rss",
       "source": "36氪",
@@ -261,8 +261,8 @@
       "importance": "高",
       "reason": "影响力评分: 195.0",
       "tags": [
-        "合作",
-        "投资"
+        "投资",
+        "合作"
       ],
       "url": "https://36kr.com/newsflashes/3600717873758465?f=rss",
       "source": "36氪",
@@ -271,28 +271,13 @@
     },
     {
       "index": 17,
-      "title": "标准通用公司正在洽谈投资华纳兄弟探索网络事宜",
-      "summary": "12月18日消息，据英国金融时报周四报道，纽约对冲基金标准通用公司创始人Soo Kim一直在洽谈收购或投资华纳兄弟 Discovery 电视网络的可能性。（新浪财经）",
-      "importance": "高",
-      "reason": "影响力评分: 195.0",
-      "tags": [
-        "收购",
-        "投资"
-      ],
-      "url": "https://36kr.com/newsflashes/3600690727387145?f=rss",
-      "source": "36氪",
-      "original_pub_date": "2025-12-18 07:09:55",
-      "impact_score": 195.0
-    },
-    {
-      "index": 18,
       "title": "加码智能化投入，理想正式成立美国研发中心｜36氪独家",
       "summary": "12月18日消息，理想研发体系，在硅谷拓疆。 36氪从多处获悉， 理想汽车正式筹建硅谷的AI研发中心，将负责智能化技术研发，已在数月前开启人员招聘 。 知情人士告诉36氪，此前理想北美便拥有一个小型研发团队，支持芯片研发以及其他智能化相关工作，“这次是要把硅谷团队升级为一个真正的研发中心”。 据36氪了解，理想硅谷研发中心此次扩建主要面向辅助驾驶领域，希望招募具备智能化前沿背景的高端算法人才。 今年10月起，理想汽",
       "importance": "高",
       "reason": "影响力评分: 182.0",
       "tags": [
-        "CEO",
         "发布",
+        "CEO",
         "突破",
         "大模型",
         "AI"
@@ -303,15 +288,15 @@
       "impact_score": 182.0
     },
     {
-      "index": 19,
+      "index": 18,
       "title": "小鹏X9超级增程搭载华为「心脏」，小鹏副总裁表态：未来合作无上限",
       "summary": "12月18日消息，在华为松山湖园区古典城堡建筑的衬托下，刚刚完成上市的小鹏X9超级增程版多了几分沉淀感。 12月2日，小鹏与华为宣布，小鹏X9超级增程全球首发搭载华为DriveONE全栈高集成高压油冷发电机，该发电机也是小鹏鲲鹏超级增程技术的“心脏”。 这是今年双方的第二次正式技术合作。今年的6月，小鹏与华为联合发布车载AR-HUD，并首发搭载于小鹏G7。 小鹏X9超级增程是小鹏与华为在2024年11月达成全面增程",
       "importance": "高",
       "reason": "影响力评分: 180.0",
       "tags": [
         "合作",
-        "发布",
         "对齐",
+        "发布",
         "上市"
       ],
       "url": "https://www.leiphone.com/category/transportation/Nx3kypmzaxTmx2qp.html",
@@ -320,20 +305,35 @@
       "impact_score": 180.0
     },
     {
-      "index": 20,
+      "index": 19,
       "title": "薪酬惊人！苹果库克7小时收入超普通工人年薪；帮周鸿祎做数十亿假账？360集团回应：完全失实；昆仑芯完成股改，或明年上半年港股上市",
       "summary": "12月18日消息，要闻提示 1.美国CEO薪酬惊人，苹果库克7小时收入超普通工人年薪 2.帮周鸿祎做数十亿假账？360集团回应：完全失实 3.华为终端董事长调整 4.小鹏、理想获L3级自动驾驶道路测试牌照，鸿蒙智行在深圳开启L3内测 5.昆仑芯完成股改，有望在2026年上半年港股上市 6.法拉第未来晒 FX Super One 工厂组装现场，网友：纯手搓，草台班子 7.魏建军：隐藏式门把手风阻降了0.001但增重8",
       "importance": "高",
       "reason": "影响力评分: 165.0",
       "tags": [
+        "十亿",
         "上市",
-        "CEO",
-        "十亿"
+        "CEO"
       ],
       "url": "https://www.leiphone.com/category/zaobao/BZFWc91ekbX3aYT6.html",
       "source": "AI科技评论",
       "original_pub_date": "2025-12-17 01:17:00",
       "impact_score": 165.0
+    },
+    {
+      "index": 20,
+      "title": "ISC.AI 2025创新百强颁奖典礼落幕，首发智能体专家驱动产业升级",
+      "summary": "12月18日消息，",
+      "importance": "高",
+      "reason": "影响力评分: 162.5",
+      "tags": [
+        "AI",
+        "创新"
+      ],
+      "url": "https://www.qbitai.com/2025/12/361631.html",
+      "source": "量子位",
+      "original_pub_date": "2025-12-18 03:53:41",
+      "impact_score": 162.5
     }
   ],
   "international": [
@@ -344,11 +344,11 @@
       "importance": "高",
       "reason": "影响力评分: 285.0",
       "tags": [
-        "Gemini 2",
-        "large language model",
         "LLM",
+        "reasoning",
         "multimodal",
-        "reasoning"
+        "state-of-the-art",
+        "large language model"
       ],
       "url": "https://arxiv.org/abs/2512.15298",
       "source": "arXiv AI",
@@ -362,10 +362,10 @@
       "importance": "高",
       "reason": "影响力评分: 251.0",
       "tags": [
-        "CEO",
-        "artificial general intelligence",
         "AGI",
-        "AI"
+        "AI",
+        "artificial general intelligence",
+        "CEO"
       ],
       "url": "https://www.theverge.com/news/846721/amazon-new-agi-leader-peter-desantis-rohit-prasad",
       "source": "The Verge AI",
@@ -379,9 +379,9 @@
       "importance": "高",
       "reason": "影响力评分: 249.0",
       "tags": [
-        "launches",
         "Gemini 3",
-        "AI"
+        "AI",
+        "launches"
       ],
       "url": "https://techcrunch.com/2025/12/17/google-launches-gemini-3-flash-makes-it-the-default-model-in-the-gemini-app/",
       "source": "TechCrunch AI",
@@ -395,8 +395,8 @@
       "importance": "高",
       "reason": "影响力评分: 249.0",
       "tags": [
-        "AI",
         "Gemini 3",
+        "AI",
         "Gemini 2"
       ],
       "url": "https://www.theverge.com/news/845741/gemini-3-flash-google-ai-mode-launch",
@@ -411,8 +411,8 @@
       "importance": "高",
       "reason": "影响力评分: 240.0",
       "tags": [
-        "valuation",
         "AI",
+        "valuation",
         "billion"
       ],
       "url": "https://www.bloomberg.com/news/articles/2025-12-18/openai-discussed-funding-at-750-billion-value-information-says",
@@ -427,8 +427,8 @@
       "importance": "高",
       "reason": "影响力评分: 240.0",
       "tags": [
-        "valuation",
         "AI",
+        "valuation",
         "billion"
       ],
       "url": "https://www.bloomberg.com/news/videos/2025-12-17/bloomberg-tech-12-17-2025-video",
@@ -444,9 +444,9 @@
       "reason": "影响力评分: 240.0",
       "tags": [
         "valuation",
-        "CEO",
         "joins",
-        "billion"
+        "billion",
+        "CEO"
       ],
       "url": "https://www.bloomberg.com/news/videos/2025-12-17/imprint-payments-propelled-to-1-2b-valuation-video",
       "source": "Bloomberg Technology",
@@ -460,10 +460,10 @@
       "importance": "高",
       "reason": "影响力评分: 200.0",
       "tags": [
-        "valuation",
         "AGI",
         "reasoning",
-        "AI"
+        "AI",
+        "valuation"
       ],
       "url": "https://arxiv.org/abs/2512.15489",
       "source": "arXiv AI",
@@ -477,9 +477,9 @@
       "importance": "高",
       "reason": "影响力评分: 200.0",
       "tags": [
-        "artificial general intelligence",
         "AGI",
         "AI",
+        "artificial general intelligence",
         "chief"
       ],
       "url": "https://www.cnbc.com/2025/12/17/amazon-ai-chief-prasad-leaving-peter-desantis-agi-group.html",
@@ -494,10 +494,10 @@
       "importance": "高",
       "reason": "影响力评分: 195.0",
       "tags": [
-        "valuation",
-        "CEO",
+        "AI",
         "founder",
-        "AI"
+        "valuation",
+        "CEO"
       ],
       "url": "https://www.bloomberg.com/news/videos/2025-12-18/see-rise-of-ai-generated-attacks-exein-s-cuozzo-video",
       "source": "Bloomberg Technology",
@@ -511,9 +511,9 @@
       "importance": "高",
       "reason": "影响力评分: 195.0",
       "tags": [
-        "chief",
-        "AI",
         "joins",
+        "AI",
+        "chief",
         "billion"
       ],
       "url": "https://www.bloomberg.com/news/videos/2025-12-17/micron-gives-rosy-sales-forecast-as-ai-boom-spurs-demand-video",
@@ -528,10 +528,10 @@
       "importance": "高",
       "reason": "影响力评分: 195.0",
       "tags": [
-        "CEO",
-        "founder",
         "AI",
-        "billion"
+        "founder",
+        "billion",
+        "CEO"
       ],
       "url": "https://www.bloomberg.com/news/videos/2025-12-17/portal-s-flavin-on-biotech-pharma-deals-in-2026-video",
       "source": "Bloomberg Technology",
@@ -545,10 +545,10 @@
       "importance": "高",
       "reason": "影响力评分: 180.0",
       "tags": [
-        "artificial intelligence",
+        "appointed",
         "AI",
-        "chief",
-        "appointed"
+        "artificial intelligence",
+        "chief"
       ],
       "url": "https://www.ft.com/content/f3092c2d-f428-4ff4-bdbd-9a27b12bcae2",
       "source": "Financial Times Tech",
@@ -562,9 +562,9 @@
       "importance": "高",
       "reason": "影响力评分: 180.0",
       "tags": [
-        "deepfake",
+        "AI Act",
         "AI",
-        "AI Act"
+        "deepfake"
       ],
       "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-first-draft-code-practice-marking-and-labelling-ai-generated-content",
       "source": "EU AI Policy",
@@ -578,9 +578,9 @@
       "importance": "高",
       "reason": "影响力评分: 165.0",
       "tags": [
-        "fine",
         "AI",
-        "artificial intelligence"
+        "artificial intelligence",
+        "fine"
       ],
       "url": "https://digital-strategy.ec.europa.eu/en/library/first-draft-code-practice-transparency-ai-generated-content",
       "source": "EU AI Policy",
@@ -594,8 +594,8 @@
       "importance": "高",
       "reason": "影响力评分: 165.0",
       "tags": [
-        "valuation",
         "AI",
+        "valuation",
         "billion"
       ],
       "url": "https://www.cnbc.com/2025/12/16/alphabet-owned-waymo-in-talks-to-raise-15-billion-in-funding.html",
@@ -611,8 +611,8 @@
       "reason": "影响力评分: 162.0",
       "tags": [
         "Gemini 3",
-        "large language model",
         "joins",
+        "large language model",
         "state-of-the-art",
         "AI"
       ],
@@ -628,9 +628,9 @@
       "importance": "高",
       "reason": "影响力评分: 158.0",
       "tags": [
-        "CEO",
         "Sam Altman",
-        "AI"
+        "AI",
+        "CEO"
       ],
       "url": "https://www.theverge.com/news/847067/openai-app-store-directory-sdk-chatgpt",
       "source": "The Verge AI",
@@ -644,9 +644,9 @@
       "importance": "高",
       "reason": "影响力评分: 158.0",
       "tags": [
-        "CEO",
+        "appointed",
         "AI",
-        "appointed"
+        "CEO"
       ],
       "url": "https://techcrunch.com/2025/12/17/mozillas-new-ceo-says-ai-is-coming-to-firefox-but-will-remain-a-choice/",
       "source": "TechCrunch AI",
@@ -661,8 +661,8 @@
       "reason": "影响力评分: 157.5",
       "tags": [
         "AGI",
-        "founder",
-        "AI"
+        "AI",
+        "founder"
       ],
       "url": "https://www.bloomberg.com/news/videos/2025-12-18/time-for-europe-to-stop-making-excuses-and-step-up-eurostack-s-caffarra",
       "source": "Bloomberg Technology",
@@ -670,11 +670,11 @@
       "impact_score": 157.5
     }
   ],
-  "summary": "今日从181条原始信息中精选出20条国内动态和20条国际动态，其中40条为高重要性。 重点关注：短剧厂牌听花岛赵优秀:“用户反感套路化”比预想来得更快 | 36氪专访；大厂竞逐，健康AI率先跑出一个阿福；两年门店扩至170家，这个被收购的美国品牌活过来了。",
+  "summary": "今日从180条原始信息中精选出20条国内动态和20条国际动态，其中40条为高重要性。 重点关注：短剧厂牌听花岛赵优秀:“用户反感套路化”比预想来得更快 | 36氪专访；大厂竞逐，健康AI率先跑出一个阿福；两年门店扩至170家，这个被收购的美国品牌活过来了。",
   "statistics": {
-    "raw_domestic": 56,
+    "raw_domestic": 55,
     "raw_international": 125,
-    "raw_total": 181,
+    "raw_total": 180,
     "final_domestic": 20,
     "final_international": 20
   },
