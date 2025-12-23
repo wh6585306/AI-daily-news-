@@ -1,0 +1,238 @@
+======================================================================
+AI每日动态 - 2025-12-23
+生成时间: 2025-12-23 08:19:09
+数据来源: 从 156 条原始信息中精选
+======================================================================
+
+╔════════════════════════════════════════════════════════════════════╗
+║                         📋 精简版报告                          ║
+╚════════════════════════════════════════════════════════════════════╝
+
+国内动态：
+1、12月23日消息，2025年，全球资本市场的风向标似乎正在发生微妙的轮动。当港股以同比激增700%的募资额宣告“牛市回归”，当美股中概股审批重回常态化轨道，中国企业的境外上市之路似乎再度宽阔起来。然而，硬币的另一面是，在A股IPO持续收紧的当下，已经在上市筹备路上的千军万马涌向境外上市的赛道，机遇背后的“深水区”依然暗礁丛生：从红筹架构的穿透式监管到数据出境的合规红线，从Web3新赛道的财务审计到SPAC上市后的估
+2、12月23日消息，今日热点导览 快手：遭到黑灰产攻击，已报警 本年度油价最后一次调价 吉利汽车宣布完成极氪私有化 意大利监管机构对苹果罚款上亿美元 保时捷将关停所有自建充电站 山姆回应APP评论照片自动加美颜 TOP3大新闻 明年1月1日起，向好友发淫秽信息违法 2026年1月1日起，新修订的《中华人民共和国治安管理处罚法》（以下简称《治安管理处罚法》）将正式施行，其中第八十条对传播淫秽信息的处罚规定作出明确细化，
+3、12月23日消息，大公司： 减重版司美格鲁肽心血管适应症获批上市 12月22日，减重版司美格鲁肽注射液（商品名：诺和盈）心血管适应症上市申请获得中国国家药品监督管理局（NMPA）批准，适用于降低已确诊为心血管疾病且BMI≥27kg/m2成人患者的主要心血管不良事件的风险，成为国内首个获批心血管适应症的GLP-1类减重药。（第一财经） 智元机器人邓泰华：今年销售收入有望超10亿元 12月22日，在全国机器人租赁生态峰
+4、12月23日消息，36氪获悉，12月23日，腾讯云宣布国内率先支持并发布开源内存数据库Valkey 8.0版本。Valkey由Linux基金会托管，源自Redis社区，致力于构建厂商中立的开源内存数据库平台。腾讯云数据库团队近两年在Redis与Valkey社区累计贡献360多个PR，贡献量位居全球第一。
+5、12月23日消息，雷峰网·鲸犀独家获悉，壹粟创新（ACCELaser）近期已完成亿元Pre-A轮融资，本轮融资由同创伟业、元钛基金、协立资本共同参与。 壹粟创新成立于2024年4月，是一家专注于桌面级激光加工设备的科技公司，其推出的首款产品HD1系列上线Kickstarter众筹平台取得百万美元级的众筹成绩。HD1系列首次将大幅面和高速度结合，并实现了真正意义上的复杂曲面雕刻和3D物品雕刻，极大提高了机器性能及拓展
+
+国际动态：
+1、12月23日消息，A Silicon Valley-focused banking startup backed by Palantir Technologies Inc. co-founder Peter Thiel is expected to raise $350 million in a funding round that would more than double its valuation.
+2、12月23日消息，arXiv:2512.16969v1 Announce Type: new Abstract: Despite advances in scientific AI, a coherent framework for Scientific General Intelligence (SGI)-the ability to autonomously conceive, investigate, and
+3、12月23日消息，Today, the Federal Trade Commission issued an order to reopen and set aside a 2024 final consent order involving Rytr LLC. The Commission determined after review that the complaint failed to satisfy t
+4、12月23日消息，Liza Tobin, managing director at Garnaut Global, says the Trump administration has been lowering the bar on national security concerns related to TikTok as it works to find a deal to keep the app in t
+5、12月23日消息，arXiv:2512.17145v2 Announce Type: new Abstract: Reasoning under uncertainty is a key challenge in AI, especially for real-world tasks, where problems with sparse data demands systematic generalisation
+
+
+╔════════════════════════════════════════════════════════════════════╗
+║                         📰 完整版报告                          ║
+╚════════════════════════════════════════════════════════════════════╝
+
+【国内动态】
+--------------------------------------------------
+1、🔥 12月23日消息，2025年，全球资本市场的风向标似乎正在发生微妙的轮动。当港股以同比激增700%的募资额宣告“牛市回归”，当美股中概股审批重回常态化轨道，中国企业的境外上市之路似乎再度宽阔起来。然而，硬币的另一面是，在A股IPO持续收紧的当下，已经在上市筹备路上的千军万马涌向境外上市的赛道，机遇背后的“深水区”依然暗礁丛生：从红筹架构的穿透式监管到数据出境的合规红线，从Web3新赛道的财务审计到SPAC上市后的估
+   📋 入选理由: 影响力评分: 502.5
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3606194764399625?f=rss
+   🏷️ 标签: 估值, 监管, 投资, IPO, 并购
+
+2、🔥 12月23日消息，今日热点导览 快手：遭到黑灰产攻击，已报警 本年度油价最后一次调价 吉利汽车宣布完成极氪私有化 意大利监管机构对苹果罚款上亿美元 保时捷将关停所有自建充电站 山姆回应APP评论照片自动加美颜 TOP3大新闻 明年1月1日起，向好友发淫秽信息违法 2026年1月1日起，新修订的《中华人民共和国治安管理处罚法》（以下简称《治安管理处罚法》）将正式施行，其中第八十条对传播淫秽信息的处罚规定作出明确细化，
+   📋 入选理由: 影响力评分: 405.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3607368840070401?f=rss
+   🏷️ 标签: 监管, 发布, 制裁, 罚款
+
+3、🔥 12月23日消息，大公司： 减重版司美格鲁肽心血管适应症获批上市 12月22日，减重版司美格鲁肽注射液（商品名：诺和盈）心血管适应症上市申请获得中国国家药品监督管理局（NMPA）批准，适用于降低已确诊为心血管疾病且BMI≥27kg/m2成人患者的主要心血管不良事件的风险，成为国内首个获批心血管适应症的GLP-1类减重药。（第一财经） 智元机器人邓泰华：今年销售收入有望超10亿元 12月22日，在全国机器人租赁生态峰
+   📋 入选理由: 影响力评分: 352.5
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3606638055982088?f=rss
+   🏷️ 标签: 合作, 发布, CEO, 风险, 投资
+
+4、🔥 12月23日消息，36氪获悉，12月23日，腾讯云宣布国内率先支持并发布开源内存数据库Valkey 8.0版本。Valkey由Linux基金会托管，源自Redis社区，致力于构建厂商中立的开源内存数据库平台。腾讯云数据库团队近两年在Redis与Valkey社区累计贡献360多个PR，贡献量位居全球第一。
+   📋 入选理由: 影响力评分: 234.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3607766915482881?f=rss
+   🏷️ 标签: 开源, 发布
+
+5、🔥 12月23日消息，雷峰网·鲸犀独家获悉，壹粟创新（ACCELaser）近期已完成亿元Pre-A轮融资，本轮融资由同创伟业、元钛基金、协立资本共同参与。 壹粟创新成立于2024年4月，是一家专注于桌面级激光加工设备的科技公司，其推出的首款产品HD1系列上线Kickstarter众筹平台取得百万美元级的众筹成绩。HD1系列首次将大幅面和高速度结合，并实现了真正意义上的复杂曲面雕刻和3D物品雕刻，极大提高了机器性能及拓展
+   📋 入选理由: 影响力评分: 230.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/weiwu/J6u9dJsiqdUAB70b.html
+   🏷️ 标签: 上线, 开放, 创新, 首次, 融资
+
+6、🔥 12月23日，全球权威AI基准测试平台Artificial Analysis公布了最新的图像模型榜单，阿里6B参数Z-Image Turbo超越32B的FLUX.2，成为最强开源图像生成模型。目前，该模型已在阿里云百炼上线，生成1千张图片仅需5美元。 阿里Z-Image Turbo超越FLUX.2，登顶Artificial Analysis图像模型榜单 根据Artificial Analysis官
+   📋 入选理由: 影响力评分: 225.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/industrynews/eTSgW7YOHtWf6MSM.html
+   🏷️ 标签: 百亿, 上线, 超越, 创新, AI
+
+7、🔥 12月18日，上海世博中心，火山引擎原动力大会现场人山人海。 谭待表示，截至今年12月，豆包大模型日均Tokens使用量已突破50万亿，居中国第一、全球第三；超过100家企业在火山引擎上累计Tokens使用量超过一万亿。 大会发布的豆包大模型1.8、豆包视频生成模型Seedance 1.5 pro等一系列模型，一如既往，不负众多观众的期待。 作为云计算领域的后来者，火山引擎正乘着大模型，成为行业不
+   📋 入选理由: 影响力评分: 215.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/ai/zqkaPu1It4WVaiBs.html
+   🏷️ 标签: 合作, 发布, 突破, 大语言模型, 创新
+
+8、🔥 12月23日消息，36氪获悉，面壁智能宣布已于近期完成数亿元融资。本次融资由京国瑞、国科投资、中金保时捷基金、米聚资本与和基投资共同参与，募集资金将主要用于加大端侧高效大模型的研发投入，加速端侧AI的商业化进程。
+   📋 入选理由: 影响力评分: 210.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3607731970753542?f=rss
+   🏷️ 标签: AI, 投资, 大模型, 融资
+
+9、🔥 12月23日，研究机构Quest Mobile发布的《2025下半年AI应用交互革新与生态落地报告》显示，全市场AI原生App中，最新周活跃用户排名前四的是豆包、DeepSeek、元宝、蚂蚁阿福，阿里千问位列第五，蚂蚁集团11月发布的通用AI助手灵光，进入前十。 Quest Mobile榜单显示，在最新统计周期内（12月8日至12月14日），周活跃用户规模Top10的AI APP中，有6个通用AI
+   📋 入选理由: 影响力评分: 210.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/industrynews/bvLIIT3vKwLCr28A.html
+   🏷️ 标签: 上线, 发布, 突破, AI, 领先
+
+10、🔥 12月23日消息，要闻提示 1.九年更换八位CEO？长城汽车哈弗总经理赵永坡宣布接任魏牌CEO 2.小米给汽车经销商发超一亿元“红包”，小米经销商：有友商被这操作整懵 3.曝钉钉启动“D计划”拟推AI硬件新品，类似“豆包手机”，官方回应 4.追觅全球首款 AI 健康眼镜正式发布，支持24小时心率、血氧、体温等全维健康指标监测 5.涨薪！字节跳动加大人才投入，“M”及以上员工年终奖上限提升1.5-3个月 6.Mini
+   📋 入选理由: 影响力评分: 210.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/zaobao/7erVa3A6q6yEqhiM.html
+   🏷️ 标签: 发布, CEO, 创新, 十亿, AI
+
+11、🔥 12月23日消息，2025年12月12-13日，第八届GAIR全球人工智能与机器人大会在深圳·博林天瑞喜来登酒店正式启幕。 作为AI产学研投界的标杆盛会，GAIR自2016年创办以来，始终坚守“传承+创新”内核，始终致力于连接技术前沿与产业实践。 13日「AI 算力新十年」专场的“如何从‘算力基建’到‘价值闭环’？”圆桌对话中，数位业内资深专家展开精彩对谈与深度探讨，抛出诸多极具启发性的观点： 参与本次圆桌论坛的嘉
+   📋 入选理由: 影响力评分: 200.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/chips/VEsWAEveZYGcAYrG.html
+   🏷️ 标签: 人工智能, 突破, 创新, AI, 投资
+
+12、🔥 12月23日消息，2025年12月12-13日，第八届 GAIR全球人工智能与机器人大会 在深圳·博林天瑞喜来登酒店正式启幕。 作为AI 产学研投界的标杆盛会，GAIR自2016年创办以来，始终坚守“传承+创新”内核，始终致力于连接技术前沿与产业实践。 在人工智能逐步成为国家竞争核心变量的当下，算力正以前所未有的速度重塑技术路径与产业结构。13日举办的 「AI 算力新十年」 专场聚焦智能体系的底层核心——算力，从架
+   📋 入选理由: 影响力评分: 185.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/industrynews/ve30PoZewrgUJf5W.html
+   🏷️ 标签: 人工智能, 创新, AI, 突破
+
+13、🔥 12月23日消息，这波更新，满眼都是Coding，Coding，还是Coding
+   📋 入选理由: 影响力评分: 180.0
+   📰 来源: 量子位 | 🔗 https://www.qbitai.com/2025/12/364823.html
+   🏷️ 标签: SOTA, 开源, 大模型, IPO
+
+14、🔥 12月23日消息，视觉大模型从“像素预测”转向“结构重组”
+   📋 入选理由: 影响力评分: 150.0
+   📰 来源: 量子位 | 🔗 https://www.qbitai.com/2025/12/363681.html
+   🏷️ 标签: 开源, 大模型
+
+15、🔥 12月23日消息，带来开箱即用的视觉分词器预训练框架VTP
+   📋 入选理由: 影响力评分: 150.0
+   📰 来源: 量子位 | 🔗 https://www.qbitai.com/2025/12/363586.html
+   🏷️ 标签: 开源, 首次
+
+16、🔥 12月23日消息，火山引擎将成为2026年中央广播电视总台春节联欢晚独家AI云合作伙伴，字节跳动旗下的智能助手豆包也将配合上线多种互动玩法，抖音曾于2019年与2021年两次成为春晚的独家互动平台。（晚点LatePost）
+   📋 入选理由: 影响力评分: 147.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3607722588505088?f=rss
+   🏷️ 标签: 合作, 上线, AI
+
+17、🔥 12月23日消息，
+   📋 入选理由: 影响力评分: 135.0
+   📰 来源: 机器之心 | 🔗 https://www.jiqizhixin.com/articles/2025-12-23-7
+   🏷️ 标签: 发布
+
+18、🔥 12月23日消息，英伟达“芯皇”Thor上车
+   📋 入选理由: 影响力评分: 135.0
+   📰 来源: 量子位 | 🔗 https://www.qbitai.com/2025/12/365580.html
+   🏷️ 标签: 发布
+
+19、🔥 12月23日消息，要闻提示 1.Waymo无人车闯祸了！路口集体趴窝导致堵车，有乘客被困车内数十分钟 2.OpenAI、Meta都在押注的摄像头AI耳机，小米系创业公司光帆科技今晚发布 3.快手直播间出现大量色情内容，快手回应：平台遭到黑灰产攻击，已报警 4.比亚迪确认研发人员集体涨薪！ 5.吉利汽车宣布完成极氪私有化 6.曝前字节Seed大模型核心人才冯佳时加盟腾讯 7.影翎无人机上市2周内被黑2500条！影石最
+   📋 入选理由: 影响力评分: 135.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/zaobao/hPTaOONRkgSDbeP5.html
+   🏷️ 标签: 发布, CEO, AI, 上市, 大模型
+
+20、🔥 12月23日消息，36氪获悉，博晖创新发布公告，控股子公司博晖生物制药（河北）有限公司研发的药品人凝血因子Ⅷ近日收到国家药监局核准签发的《药品注册证书》。该药品对缺乏人凝血因子Ⅷ所致的凝血机能障碍具有纠正作用，主要用于防治血友病A和获得性凝血因子Ⅷ缺乏而致的出血症状及这类病人的手术出血治疗。
+   📋 入选理由: 影响力评分: 132.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3607853062571012?f=rss
+   🏷️ 标签: 创新, 发布
+
+
+【国际动态】
+--------------------------------------------------
+1、🔥 12月23日消息，A Silicon Valley-focused banking startup backed by Palantir Technologies Inc. co-founder Peter Thiel is expected to raise $350 million in a funding round that would more than double its valuation.
+   📋 入选理由: 影响力评分: 255.0
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/articles/2025-12-22/thiel-backed-bank-set-to-double-valuation-to-4-35-billion
+   🏷️ 标签: valuation, AI, founder, billion
+
+2、🔥 12月23日消息，arXiv:2512.16969v1 Announce Type: new Abstract: Despite advances in scientific AI, a coherent framework for Scientific General Intelligence (SGI)-the ability to autonomously conceive, investigate, and
+   📋 入选理由: 影响力评分: 215.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.16969
+   🏷️ 标签: reasoning, state-of-the-art, LLM, AI, valuation
+
+3、🔥 12月23日消息，Today, the Federal Trade Commission issued an order to reopen and set aside a 2024 final consent order involving Rytr LLC. The Commission determined after review that the complaint failed to satisfy t
+   📋 入选理由: 影响力评分: 215.0
+   📰 来源: FTC Tech | 🔗 https://www.ftc.gov/news-events/news/press-releases/2025/12/ftc-reopens-sets-aside-rytr-final-order-response-trump-administrations-ai-action-plan
+   🏷️ 标签: executive order, AI, artificial intelligence, AI Act
+
+4、🔥 12月23日消息，Liza Tobin, managing director at Garnaut Global, says the Trump administration has been lowering the bar on national security concerns related to TikTok as it works to find a deal to keep the app in t
+   📋 入选理由: 影响力评分: 195.0
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/videos/2025-12-22/tiktok-deal-leaves-national-security-risk-liza-tobin-video
+   🏷️ 标签: leaves, AGI, national security, joins
+
+5、🔥 12月23日消息，arXiv:2512.17145v2 Announce Type: new Abstract: Reasoning under uncertainty is a key challenge in AI, especially for real-world tasks, where problems with sparse data demands systematic generalisation
+   📋 入选理由: 影响力评分: 185.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.17145
+   🏷️ 标签: reasoning, AGI, LLM, AI
+
+6、🔥 12月23日消息，FlexShopper Inc., a publicly traded provider of lease-to-own financing for appliances, electronics and other consumer products, filed for bankruptcy months after firing its chief executive officer fol
+   📋 入选理由: 影响力评分: 180.0
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/articles/2025-12-22/lease-to-own-firm-flexshopper-files-bankruptcy-after-firing-ceo
+   🏷️ 标签: investigation, chief, CEO
+
+7、🔥 12月23日消息，Bids for Warner Bros. Discovery could go higher, and the company’s cable networks may be worth more if sold separately from the studio assets, says Jon Klein, co-founder of Hang Media and former presi
+   📋 入选理由: 影响力评分: 165.0
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/videos/2025-12-22/wbd-bids-could-go-higher-says-former-cnn-president-video
+   🏷️ 标签: joins, founder
+
+8、🔥 12月23日消息，"This is quite a battle," Ross Gerber, co-founder and CEO of Gerber Kawasaki Wealth and Investment Management, says about the latest in the Paramount and Netflix bids for Warner Bros. He speaks on "Bl
+   📋 入选理由: 影响力评分: 165.0
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/videos/2025-12-22/warner-bros-has-done-masterful-job-ross-gerber-says-video
+   🏷️ 标签: founder, CEO
+
+9、🔥 12月23日消息，Tory Bruno, the chief executive officer of Boeing Co. and Lockheed Martin Corp.’s rocket joint venture United Launch Alliance, has resigned after serving in the position for nearly 12 years.
+   📋 入选理由: 影响力评分: 165.0
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/articles/2025-12-22/ceo-of-boeing-and-lockheed-rocket-joint-venture-ula-resigns
+   🏷️ 标签: chief, CEO
+
+10、🔥 12月23日消息，FanDuel is launching its own prediction-market app in five states just days after its main rival, DraftKings Inc., rolled out a similar product.
+   📋 入选理由: 影响力评分: 150.0
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/articles/2025-12-22/fanduel-launches-latest-prediction-markets-app-chasing-rivals
+   🏷️ 标签: launches, AI
+
+11、🔥 12月23日消息，arXiv:2512.16962v1 Announce Type: cross Abstract: Large Language Model (LLM) agents increasingly rely on long-term memory and Retrieval-Augmented Generation (RAG) to persist experiences and refine fut
+   📋 入选理由: 影响力评分: 145.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.16962
+   🏷️ 标签: large language model, introduces, fine, reasoning, LLM
+
+12、🔥 12月23日消息，Overexuberance and complacency dog the market and the AI trade going into next year, says Ted Mortonson, managing director of Baird. He discusses the headwinds he sees around the corner with Caroline 
+   📋 入选理由: 影响力评分: 142.5
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/videos/2025-12-22/what-is-the-ai-trade-in-2026-video
+   🏷️ 标签: AGI, AI
+
+13、🔥 12月23日消息，Jeff Thomas, Nasdaq Capital Access Platforms chief revenue officer and global head of listings, says activity should pick up strongly in the first quarter and accelerate further in the back half of th
+   📋 入选理由: 影响力评分: 142.5
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/videos/2025-12-22/nasdaq-s-thomas-expect-strong-end-of-26-for-ipos-video
+   🏷️ 标签: AI, chief, IPO
+
+14、🔥 12月23日消息，arXiv:2512.17559v1 Announce Type: new Abstract: Healthcare systems around the world are grappling with issues like inefficient diagnostics, rising costs, and limited access to specialists. These probl
+   📋 入选理由: 影响力评分: 135.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.17559
+   🏷️ 标签: large language model, introduces, deep learning, LLM, AI
+
+15、🔥 12月23日消息，President says he plans to meet defence contractors in Florida next week
+   📋 入选理由: 影响力评分: 135.0
+   📰 来源: Financial Times Tech | 🔗 https://www.ft.com/content/ed6bd83d-331d-466b-b87e-2e0f1c28f898
+   🏷️ 标签: announces
+
+16、🔥 12月23日消息，A timeline of ChatGPT product updates and releases, starting with the latest, which we’ve been updating throughout the year.
+   📋 入选理由: 影响力评分: 132.0
+   📰 来源: TechCrunch AI | 🔗 https://techcrunch.com/2025/12/22/chatgpt-everything-to-know-about-the-ai-chatbot/
+   🏷️ 标签: AI, releases
+
+17、🔥 12月23日消息，Videos such as fake ads featuring AI children playing with vibrators or Jeffrey Epstein- and Diddy-themed play sets are being made with Sora 2 and posted to TikTok.
+   📋 入选理由: 影响力评分: 132.0
+   📰 来源: Wired AI | 🔗 https://www.wired.com/story/people-are-using-sora-2-to-make-child-fetish-content/
+   🏷️ 标签: AI, Sora
+
+18、🔥 12月23日消息，arXiv:2512.16970v1 Announce Type: new Abstract: Large Language Model (LLM) agents are increasingly deployed in complex, multi-step workflows involving planning, tool use, reflection, and interaction w
+   📋 入选理由: 影响力评分: 130.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.16970
+   🏷️ 标签: large language model, fine, reasoning, LLM, AI
+
+19、🔥 12月23日消息，arXiv:2512.17043v1 Announce Type: new Abstract: Knowledge Graph Question Answering (KGQA) has traditionally focused on entity-centric queries that return a single answer entity. However, real-world qu
+   📋 入选理由: 影响力评分: 130.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.17043
+   🏷️ 标签: reasoning, AI, LLM, fine
+
+20、🔥 12月23日消息，arXiv:2512.17194v1 Announce Type: new Abstract: Multi-modal Retrieval-Augmented Generation (MMRAG) enables highly credible generation by integrating external multi-modal knowledge, thus demonstrating 
+   📋 入选理由: 影响力评分: 130.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.17194
+   🏷️ 标签: reasoning, AI, large language model, fine
+
+
+======================================================================
+📊 今日总结: 今日从156条原始信息中精选出20条国内动态和20条国际动态，其中40条为高重要性。 重点关注：「IPO加速营」上海开营首秀，全景拆解企业境外上市“深水区”；8点1氪｜明年1月1日起，向好友发淫秽信息违法；多平台回应陈震账号解封传闻；日本最大核电站将重启，此前因福岛核事故关闭；氪星晚报 ｜日本将对电动车加征新税：车越重，税越高；减重版司美格鲁肽心血管适应症获批上市；Uber将与百度合作，在英国开展无人驾驶出租车试点项目。
+======================================================================
