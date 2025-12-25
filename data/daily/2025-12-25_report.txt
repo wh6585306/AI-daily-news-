@@ -1,0 +1,238 @@
+======================================================================
+AI每日动态 - 2025-12-25
+生成时间: 2025-12-25 08:18:24
+数据来源: 从 128 条原始信息中精选
+======================================================================
+
+╔════════════════════════════════════════════════════════════════════╗
+║                         📋 精简版报告                          ║
+╚════════════════════════════════════════════════════════════════════╝
+
+国内动态：
+1、12月25日消息，要闻提示 1.段永平牵头OPPO、vivo重组造车？众泰回应：目前没合作 2.美国将大疆列入受控清单，中方、大疆回应 3.市值蒸发上百亿！直播功能遭网络攻击，快手回应：已逐步恢复正常服务 4.传字节拿下春晚独家AI云合作 5.罗永浩录音还未公布，华与华兄弟筹划卖上市公司 6.魏建军回应魏牌9年8换CEO：并不是我们辞退人家，是他们自己觉得压力特别大 7.报告称苹果重组扩大 AI 团队，专注为 iP
+2、12月25日消息，文｜周鑫雨 编辑｜苏建勋 在硬件领域，让投资人们集体FOMO（害怕错过）的一个词，是“大疆系”。AI领域，近来让人同样心颤的，则是“商汤系”： 如果你曾驾车驶过上海中环路，可能会在高架上看到商汤科技如同航空母舰般的大楼。其实只需从大楼后面的林荫道步行十几分钟，就能抵达另一家AI独角兽：上海稀宇科技有限公司，它有一个更广为人知的名字：MiniMax。 两家AI公司比邻而居，创始团队更是有颇深的渊源。
+3、12月25日消息，大公司： OPPO姜昱辰：正与支付宝进行深度合作，1月将官宣与另一重要伙伴的合作 36氪获悉，近日，关于OPPO已拒绝与字节跳动就“豆包AI手机”展开合作的市场传言，OPPO ColorOS智慧产品研发总监姜昱辰明确否认了“拒绝合作”的说法，强调OPPO对任何合作均持开放态度，评估核心仅在于“合适的合作契机”。她同时还透露，公司正与支付宝进行深度合作，并计划于明年1月官宣与另一个重要伙伴的战略合作
+4、12月25日消息，作者｜黄楠 编辑｜袁斯来 近日，“亿纬钠能总部和金源机器人AI中心”项目动工仪式在亿纬锂能惠州总部D区正式举行。 在钠电板块，该项目总投资约10亿元，规划总建筑面积约9万平方米，将打造集“研发-中试-量产”一体的创新平台。AI和机器人版块规划建面约5万平方米的金源机器人AI中心，覆盖“研发-试制-中试-总装-技能培训”机器人量产研发全流程。 项目动工仪式现场 随着锂电行业发展步入深水区，产品同质化
+5、12月25日消息，商务部新闻发言人何咏前12月25日在回答关于TikTok将在美成立合资公司的有关提问时说，中国政府希望企业达成符合中国法律法规、利益平衡的解决方案。在商务部当天举行的例行新闻发布会上，何咏前表示，为落实中美两国元首通话重要共识，此前双方经贸团队在相互尊重、平等协商基础上，就以合作方式妥善解决TikTok等问题达成基本框架共识。希望美方与中方相向而行，切实履行相应承诺，为中国企业在美持续稳定运营提供
+
+国际动态：
+1、12月25日消息，arXiv:2512.20651v1 Announce Type: new Abstract: Large language models (LLMs) face inherent limitations in memory, including restricted context windows, long-term knowledge forgetting, redundant inform
+2、12月25日消息，Steven Wolfe Pereira, CEO and founder of Alpha, says Netflix will have to “up the ante” after Paramount’s latest offer for Warner Bros. Discovery. He joins Katie Greifeld on “Bloomberg Tech.” (Source:
+3、12月25日消息，arXiv:2512.20745v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) like o3 and DeepSeek-R1 have achieved remarkable progress in natural language reasoning with long chain-of-thought. Howeve
+4、12月25日消息，arXiv:2512.20626v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) enables large language models (LLMs) to dynamically access external information, which is powerful for answering qu
+5、12月25日消息，arXiv:2512.21110v1 Announce Type: new Abstract: Current Large Language Models (LLMs) safety approaches focus on explicitly harmful content while overlooking a critical vulnerability: the inability to 
+
+
+╔════════════════════════════════════════════════════════════════════╗
+║                         📰 完整版报告                          ║
+╚════════════════════════════════════════════════════════════════════╝
+
+【国内动态】
+--------------------------------------------------
+1、🔥 12月25日消息，要闻提示 1.段永平牵头OPPO、vivo重组造车？众泰回应：目前没合作 2.美国将大疆列入受控清单，中方、大疆回应 3.市值蒸发上百亿！直播功能遭网络攻击，快手回应：已逐步恢复正常服务 4.传字节拿下春晚独家AI云合作 5.罗永浩录音还未公布，华与华兄弟筹划卖上市公司 6.魏建军回应魏牌9年8换CEO：并不是我们辞退人家，是他们自己觉得压力特别大 7.报告称苹果重组扩大 AI 团队，专注为 iP
+   📋 入选理由: 影响力评分: 350.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/zaobao/D155oMtFju7xAJBd.html
+   🏷️ 标签: AI, 百亿, 投资, CEO, 合作
+
+2、🔥 12月25日消息，文｜周鑫雨 编辑｜苏建勋 在硬件领域，让投资人们集体FOMO（害怕错过）的一个词，是“大疆系”。AI领域，近来让人同样心颤的，则是“商汤系”： 如果你曾驾车驶过上海中环路，可能会在高架上看到商汤科技如同航空母舰般的大楼。其实只需从大楼后面的林荫道步行十几分钟，就能抵达另一家AI独角兽：上海稀宇科技有限公司，它有一个更广为人知的名字：MiniMax。 两家AI公司比邻而居，创始团队更是有颇深的渊源。
+   📋 入选理由: 影响力评分: 322.5
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3609258452141057?f=rss
+   🏷️ 标签: AI, 大模型, 发布, 估值, 投资
+
+3、🔥 12月25日消息，大公司： OPPO姜昱辰：正与支付宝进行深度合作，1月将官宣与另一重要伙伴的合作 36氪获悉，近日，关于OPPO已拒绝与字节跳动就“豆包AI手机”展开合作的市场传言，OPPO ColorOS智慧产品研发总监姜昱辰明确否认了“拒绝合作”的说法，强调OPPO对任何合作均持开放态度，评估核心仅在于“合适的合作契机”。她同时还透露，公司正与支付宝进行深度合作，并计划于明年1月官宣与另一个重要伙伴的战略合作
+   📋 入选理由: 影响力评分: 294.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3609258567828745?f=rss
+   🏷️ 标签: AI, 发布, 开放, 隐私, 突破
+
+4、🔥 12月25日消息，作者｜黄楠 编辑｜袁斯来 近日，“亿纬钠能总部和金源机器人AI中心”项目动工仪式在亿纬锂能惠州总部D区正式举行。 在钠电板块，该项目总投资约10亿元，规划总建筑面积约9万平方米，将打造集“研发-中试-量产”一体的创新平台。AI和机器人版块规划建面约5万平方米的金源机器人AI中心，覆盖“研发-试制-中试-总装-技能培训”机器人量产研发全流程。 项目动工仪式现场 随着锂电行业发展步入深水区，产品同质化
+   📋 入选理由: 影响力评分: 251.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3609732182901766?f=rss
+   🏷️ 标签: AI, 大模型, 突破, 创新, 投资
+
+5、🔥 12月25日消息，商务部新闻发言人何咏前12月25日在回答关于TikTok将在美成立合资公司的有关提问时说，中国政府希望企业达成符合中国法律法规、利益平衡的解决方案。在商务部当天举行的例行新闻发布会上，何咏前表示，为落实中美两国元首通话重要共识，此前双方经贸团队在相互尊重、平等协商基础上，就以合作方式妥善解决TikTok等问题达成基本框架共识。希望美方与中方相向而行，切实履行相应承诺，为中国企业在美持续稳定运营提供
+   📋 入选理由: 影响力评分: 249.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3610616226170113?f=rss
+   🏷️ 标签: 合作, 发布, 开放
+
+6、🔥 12月25日消息，要闻提示 1.各种理由拒不付款！奔驰拖欠供应商尾款超两年，涉AMG项目逾148万元 2.传豆包日活已破 1 亿，系字节“亿级 App”产品中花费最低 3.刘靖康回应影石新品遭抹黑：低调的人在隐秘角落里捅刀子 4.免佣范围扩大！2026年Shopee新店零门槛免佣政策上线 5.俞敏洪敲定东方甄选接班人！19年老将孙进将担任执行总裁 6.又一“杭州六小龙”冲刺IPO，云深处启动上市辅导 7.优必选拟1
+   📋 入选理由: 影响力评分: 240.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/zaobao/GA06GdgAmZC5aLuZ.html
+   🏷️ 标签: H200, IPO, 上线, 合作, 上市
+
+7、🔥 12月12日， 第八届 GAIR 全球人工智能与机器人大会于深圳正式拉开帷幕。 本次大会为期两天，由GAIR研究院与雷峰网联合主办，高文院士任指导委员会主席，杨强院士与朱晓蕊教授任大会主席。 作为 AI 产学研投界标杆盛会，GAIR自2016年创办以来，始终坚守 “传承+创新” 内核，是 AI 学界思想接力的阵地、技术交流的平台，更是中国 AI 四十年发展的精神家园。过去四年大模型驱动 AI 产业
+   📋 入选理由: 影响力评分: 240.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/industrynews/fTFFcTxUg5bpmOm6.html
+   🏷️ 标签: AI, 领先, 大模型, 发布, 开源
+
+8、🔥 12月25日消息，文｜张子怡 编辑｜袁斯来 前不久，第十一届土巴兔生态大会在武汉举行。 大会梳理了过去一年家装市场的运行情况，并由。面对当前家装行业周期长、非标化以及信任成本高带来的挑战，土巴兔明确了未来的核心战略：通过深度介入施工流程的保障体系和人工智能技术的应用，为用户创造更具“确定性”的装修体验。 在会上，土巴兔创始人兼CEO王国彬正式发布了“装修保3.0”服务升级方案。该体系将监管职能从单纯的资金托管延伸到
+   📋 入选理由: 影响力评分: 216.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3609414967690496?f=rss
+   🏷️ 标签: AI, 发布, 监管, 人工智能, CEO
+
+9、🔥 12月25日消息，雷峰网独家获悉，美团前高管张川的职业生涯下一站是创业，于今年5月创立出海物流公司SwiftX。SwiftX公司目前主要在美国市场提供电商物流末端派送服务。 有知情人士告诉雷峰网，张川新公司获得了美团投资，同时国内头部物流公司和相关产业基金亦有投资。可以看到，此次张川创业既有老东家支持，也有行业头部公司的加持。 SwiftX的后续动向及更多大厂高管消息可以添加微信 zymcfip 交流。 据雷峰网了
+   📋 入选理由: 影响力评分: 185.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/industrynews/9Mk0Ton9Ys2vo6BT.html
+   🏷️ 标签: 合作, 领先, 投资
+
+10、🔥 12月12日， 第八届 GAIR 全球人工智能与机器人大会于深圳正式拉开帷幕。 本次大会为期两天，由GAIR研究院与雷峰网联合主办，高文院士任指导委员会主席，杨强院士与朱晓蕊教授任大会主席。 作为 AI 产学研投界标杆盛会，GAIR自2016年创办以来，始终坚守 “传承+创新” 内核，是 AI 学界思想接力的阵地、技术交流的平台，更是中国 AI 四十年发展的精神家园。过去四年大模型驱动 AI 产业
+   📋 入选理由: 影响力评分: 185.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/industrynews/IF2o3c95gQt2GvHb.html
+   🏷️ 标签: AI, 大语言模型, 大模型, 人工智能, 创新
+
+11、🔥 12月25日消息，文 | 刘婧琼 编辑 | 阿至 2025年12月17日，36氪举办了以 「从水上到水下：海洋装备开辟新航道」 为主题的OpenTalk直播活动，特别邀请 欧卡智舶创始人&CEO朱健楠、昊野科技集团创始人&董事&CEO高万良 作为本场分享嘉宾，两位就智能船舶、水面无人驾驶系统、水中装备、水下推进器、新能源船舶动力系统等热点话题展开了深入分享，并与观众进行了在线互动。 以下是本场直播的干货总结，欢迎阅
+   📋 入选理由: 影响力评分: 173.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3610328679498752?f=rss
+   🏷️ 标签: AI, 开放, CEO, founder
+
+12、🔥 12月25日消息，作者 | 李小霞 编辑 | 乔芊、杨轩 36氪独家获悉，豆包的日均活跃用户数（DAU）已突破1亿大关 ，字节跳动APP王国里亿级DAU产品再添一子。 经过36氪多方求证，该数据属实。 据字节内部人士透露，豆包的UG、市场推广费用，是字节历史上，所有破亿DAU产品中花费最低的。 有知情人士表示，今年豆包的产品留存还可以。此外，豆包Seedream生图模型、Seedance生视频模型，持续激活创作场景
+   📋 入选理由: 影响力评分: 167.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3609313072153862?f=rss
+   🏷️ 标签: AI, 突破, 上线, 大模型
+
+13、🔥 12月25日消息，今日热点导览 影石十万元悬赏黑公关 B站否认“全面付费观看”后，造谣人员被行拘 雷军介绍小米开源推理模型MiMo-V2-Flash，排在全球开源模型前二 茅台价格全线上涨 北京市优化调整住房限购政策 TOP3大新闻 官方回应“吸毒记录封存”“哪位少爷吸了”等相关问题 修订后的治安管理处罚法将于2026年1月1日起施行。近期，一些网络媒体、网友等对治安管理处罚法第136条规定比较关注，提出了一些疑问
+   📋 入选理由: 影响力评分: 160.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3610187649483779?f=rss
+   🏷️ 标签: 雷军, 立法, 开源
+
+14、🔥 12月25日消息，
+   📋 入选理由: 影响力评分: 150.0
+   📰 来源: 机器之心 | 🔗 https://www.jiqizhixin.com/articles/2025-12-25-9
+   🏷️ 标签: AI, 开源
+
+15、🔥 12月25日消息，
+   📋 入选理由: 影响力评分: 150.0
+   📰 来源: 机器之心 | 🔗 https://www.jiqizhixin.com/articles/2025-12-25-3
+   🏷️ 标签: AI, 发布
+
+16、🔥 12月25日消息，GLM-4.7被刷屏了
+   📋 入选理由: 影响力评分: 150.0
+   📰 来源: 量子位 | 🔗 https://www.qbitai.com/2025/12/365787.html
+   🏷️ 标签: 开源, 大模型
+
+17、🔥 12月24日，腾讯云官方公号披露，在国内 TOP10 券商中，已有超过 6 成选择腾讯云，构建新一代国产大数据平台，用于支撑面向 AI 时代的数据基础设施升级。 这一变化，正在成为证券行业的一个新趋势。 过去十多年，以 CDH 为代表的传统大数据平台，长期支撑着券商的数据分析和经营决策，主要用于报表统计、批量计算等场景。 但随着财富管理向智能化演进，智能投顾、智能营销、AI 风控、实时监测等场景逐
+   📋 入选理由: 影响力评分: 150.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/industrynews/yyDP2x5duyFqTq7U.html
+   🏷️ 标签: 合作, 监控, 风险, AI
+
+18、🔥 12月25日，美团医美在上海发布“放心美”年终成果。截至2025年底，美团“放心美”历史验真人次数突破1200万，其中今年验真900万次。“放心美”覆盖范围也逐步扩大，今年新增53座城市和772家机构，目前覆盖全国140座城市的2500家机构和超过5000间诊室，在其中33座城市实现机构渗透率超过6成。此外，新版MINI验真设备已实现量产，在超过1/3合作机构投放。
+   📋 入选理由: 影响力评分: 147.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3610625425409282?f=rss
+   🏷️ 标签: 合作, 突破, 发布
+
+19、🔥 12月25日消息，36氪获悉，东方证券发布研报称，挖掘机11月出口台量加速增长，反映景气度上升。从出口国家来看，出口台量的增长主要是结构性的，反映我国工程机械竞争力加强，有利于提升未来出口的确定性。此外该行也观察到来自于二手机的出口的拉动较大，该行预计二手机的出口有利于国内保有量的利用率上升，有利于行业长期健康增长。该行认为市场对行业健康改善的预期将上升，也将带来风险评价的下降，利好中盘蓝筹公司的投资机会。部分相关
+   📋 入选理由: 影响力评分: 147.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3610585523209218?f=rss
+   🏷️ 标签: 发布, 投资, 风险
+
+20、🔥 12月25日消息，36氪从阿里国际站了解到，今年以来，重庆中小企业在平台上的线上出口额同比增长42%。为进一步助力西部陆海新通道建设，阿里国际站近日还专门为西部中小企业上线了外贸专区“陆海国际站”，向更多海外客户推介西部地区的优势产业带。同时，阿里国际站还在重庆落地了西部地区首个跨境电商创业孵化中心，与当地政府、院校紧密合作，共同为外贸创业者提供AI工具、创业陪跑、场��保障等全方位支持。
+   📋 入选理由: 影响力评分: 147.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3610547354289412?f=rss
+   🏷️ 标签: 合作, 上线, AI
+
+
+【国际动态】
+--------------------------------------------------
+1、🔥 12月25日消息，arXiv:2512.20651v1 Announce Type: new Abstract: Large language models (LLMs) face inherent limitations in memory, including restricted context windows, long-term knowledge forgetting, redundant inform
+   📋 入选理由: 影响力评分: 270.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.20651
+   🏷️ 标签: AI, multimodal, breakthrough, large language model, LLM
+
+2、🔥 12月25日消息，Steven Wolfe Pereira, CEO and founder of Alpha, says Netflix will have to “up the ante” after Paramount’s latest offer for Warner Bros. Discovery. He joins Katie Greifeld on “Bloomberg Tech.” (Source:
+   📋 入选理由: 影响力评分: 247.5
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/videos/2025-12-24/wbd-deal-may-reshape-american-media-wolfe-pereira-video
+   🏷️ 标签: CEO, joins, founder
+
+3、🔥 12月25日消息，arXiv:2512.20745v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) like o3 and DeepSeek-R1 have achieved remarkable progress in natural language reasoning with long chain-of-thought. Howeve
+   📋 入选理由: 影响力评分: 225.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.20745
+   🏷️ 标签: AI, o3, introduces, fine, reasoning
+
+4、🔥 12月25日消息，arXiv:2512.20626v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) enables large language models (LLMs) to dynamically access external information, which is powerful for answering qu
+   📋 入选理由: 影响力评分: 185.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.20626
+   🏷️ 标签: AI, multimodal, reasoning, large language model, LLM
+
+5、🔥 12月25日消息，arXiv:2512.21110v1 Announce Type: new Abstract: Current Large Language Models (LLMs) safety approaches focus on explicitly harmful content while overlooking a critical vulnerability: the inability to 
+   📋 入选理由: 影响力评分: 185.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.21110
+   🏷️ 标签: AI, reasoning, large language model, LLM, state-of-the-art
+
+6、🔥 12月25日消息，Sylvia Jablonski, CEO and CIO at Defiance ETFs, discusses ETF themes to watch in 2026. She joins Katie Greifeld on “Bloomberg Tech.” (Source: Bloomberg)
+   📋 入选理由: 影响力评分: 165.0
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/videos/2025-12-24/the-etf-themes-to-watch-in-2026-video
+   🏷️ 标签: CEO, joins
+
+7、🔥 12月25日消息，AST SpaceMobile Inc. launched its largest-ever satellite from India, the first in a series of deployments to help the company compete against Elon Musk’s SpaceX in delivering space-based connectivity 
+   📋 入选理由: 影响力评分: 165.0
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/articles/2025-12-24/ast-spacemobile-launches-biggest-satellite-to-challenge-spacex
+   🏷️ 标签: AI, launches, Elon Musk
+
+8、🔥 12月25日消息，arXiv:2512.21066v1 Announce Type: new Abstract: Explainable artificial intelligence (XAI) enables data-driven understanding of factor associations with response variables, yet communicating XAI output
+   📋 入选理由: 影响力评分: 150.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.21066
+   🏷️ 标签: AI, multimodal, fine, artificial intelligence, large language model
+
+9、🔥 12月25日消息，France hits out at visa sanctions as Washington targets what it calls the ‘global censorship-industrial complex’
+   📋 入选理由: 影响力评分: 150.0
+   📰 来源: Financial Times Tech | 🔗 https://www.ft.com/content/c4e769c8-edf7-46ab-a208-eb33385fb93a
+   🏷️ 标签: sanctions
+
+10、🔥 12月25日消息，arXiv:2512.20664v1 Announce Type: new Abstract: Large Language Models (LLMs) frequently produce hallucinated statements that are assigned high likelihood by the model itself, exposing a fundamental li
+   📋 入选理由: 影响力评分: 130.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.20664
+   🏷️ 标签: AI, fine, reasoning, large language model, LLM
+
+11、🔥 12月25日消息，arXiv:2512.20806v1 Announce Type: new Abstract: Ensuring the safety of language models (LMs) while maintaining their usefulness remains a critical challenge in AI alignment. Current approaches rely on
+   📋 入选理由: 影响力评分: 130.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.20806
+   🏷️ 标签: AI, alignment, fine
+
+12、🔥 12月25日消息，Tesla is facing a new US government probe over the door handles of its Model 3 sedans, people familiar with the matter tell Bloomberg. Steve Westly, a former Tesla board member and managing partner of
+   📋 入选理由: 影响力评分: 127.5
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/videos/2025-12-24/tesla-faces-new-door-handle-probe-video
+   🏷️ 标签: AGI
+
+13、🔥 12月25日消息，Climate news hasn’t been great in 2025. Global greenhouse-gas emissions hit record highs (again). This year is set to be either the second or third warmest on record. Climate-fueled disasters like wil
+   📋 入选理由: 影响力评分: 127.5
+   📰 来源: MIT Technology Review | 🔗 https://www.technologyreview.com/2025/12/24/1130191/good-climate-news-2025/
+   🏷️ 标签: AI, billion
+
+14、🔥 12月25日消息，arXiv:2512.20884v1 Announce Type: new Abstract: Autonomous agents powered by LLMs and Retrieval-Augmented Generation (RAG) are proficient consumers of digital content but remain unidirectional, a limi
+   📋 入选理由: 影响力评分: 120.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.20884
+   🏷️ 标签: AI, reasoning, LLM
+
+15、🔥 12月25日消息，After a year defined by worries about cloud growth and tariff impact on retail, Amazon stock heads into the new year poised for gains.
+   📋 入选理由: 影响力评分: 115.0
+   📰 来源: CNBC Tech | 🔗 https://www.cnbc.com/2025/12/24/heres-what-would-it-take-for-an-amazon-stock-comeback-in-2026.html
+   🏷️ 标签: AI, fine
+
+16、🔥 12月25日消息，The former EU commissioner and four anti-disinformation campaigners were the subject of U.S. travel sanctions.
+   📋 入选理由: 影响力评分: 115.0
+   📰 来源: CNBC Tech | 🔗 https://www.cnbc.com/2025/12/24/us-bans-visas-for-ex-eu-commissioner-over-alleged-censorship.html
+   🏷️ 标签: AI, sanctions
+
+17、🔥 12月25日消息，WIRED spoke with DeepMind’s Pushmeet Kohli about the recent past—and promising future—of the Nobel Prize-winning research project that changed biology and chemistry forever.
+   📋 入选理由: 影响力评分: 110.5
+   📰 来源: Wired AI | 🔗 https://www.wired.com/story/alphafold-changed-science-after-5-years-its-still-evolving/
+   🏷️ 标签: Nobel
+
+18、🔥 12月25日消息，Nvidia is making its largest purchase ever, acquiring assets from nine-year-old chip startup Groq for about $20 billion.
+   📋 入选理由: 影响力评分: 110.0
+   📰 来源: CNBC Tech | 🔗 https://www.cnbc.com/2025/12/24/nvidia-buying-ai-chip-startup-groq-for-about-20-billion-biggest-deal.html
+   🏷️ 标签: AI, billion
+
+19、🔥 12月25日消息，arXiv:2512.20623v1 Announce Type: new Abstract: Smart home lighting systems consume 15-20% of residential energy but lack adaptive intelligence to optimize for user comfort and energy efficiency simul
+   📋 入选理由: 影响力评分: 105.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.20623
+   🏷️ 标签: AI, alignment, large language model, LLM
+
+20、🔥 12月25日消息，arXiv:2512.20624v1 Announce Type: new Abstract: This study introduces a quantum inspired framework for optimizing the exploration exploitation tradeoff in multiagent reinforcement learning, applied to
+   📋 入选理由: 影响力评分: 105.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.20624
+   🏷️ 标签: introduces, AGI
+
+
+======================================================================
+📊 今日总结: 今日从128条原始信息中精选出20条国内动态和20条国际动态，其中40条为高重要性。 重点关注：传字节拿下春晚独家AI云合作；美国将大疆列入受控清单，中方、大疆回应；段永平牵头OPPO、vivo重组造车？众泰回应：目前没合作；“商汤系”跑出一堆独角兽，可闫俊杰无法复制；氪星晚报｜现代汽车美国公司因安全隐患召回逾5万辆汽车；京东：七鲜小厨在北京已开出30家门店；日本最大核电站将于明年1月20日重启。
+======================================================================
