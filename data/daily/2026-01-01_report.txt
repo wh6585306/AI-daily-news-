@@ -1,0 +1,238 @@
+======================================================================
+AI每日动态 - 2026-01-01
+生成时间: 2026-01-01 08:18:34
+数据来源: 从 108 条原始信息中精选
+======================================================================
+
+╔════════════════════════════════════════════════════════════════════╗
+║                         📋 精简版报告                          ║
+╚════════════════════════════════════════════════════════════════════╝
+
+国内动态：
+1、1月1日消息，文｜邓咏仪 编辑｜苏建勋 12月末的AI圈异常热闹：智谱、MiniMax的“港股AI第一股”之争刚落幕，2025年最后一天，月之暗面（Kimi）默默甩出最后一炸：完成5亿美金的新一轮融资。 据智能涌现了解，本轮融资由IDG领投，阿里、腾讯等月之暗面老股东超额认购，公司投后估值达43亿美元。据《智能涌现》了解，月之暗面这一轮超额认购的老股东，还包括高榕创投和今日资本。 超额认购，意味着老股东对被投项
+2、1月1日消息，大公司： 银河证券：国产EDA正处于“政策驱动+技术突破+需求高增”三重共振期 36氪获悉，中国银河证券研报称，我们认为，国产EDA正处于“政策驱动+技术突破+需求高增”三重共振期，短期看国产替代与并购整合，中期看全流程覆盖与AI赋能，长期看全球份额提升，建议关注产业链核心标的长期投资价值。 特斯拉在韩国降价 据Businesskorea报道，12月31日，特斯拉将在其韩国销售的汽车的价格下调了至
+3、1月1日消息，作者丨齐铖湧 编辑丨代聪飞 今天，Meta 数十亿美元收购 Manus的消息，鼓舞了无数国内AI创业者。这家来自中国的 Agent 创业公司，不到一年时间，将ARR 做到 1 亿美元并被 Meta 收购，不仅让大众看到了 Agent 的潜力之大，也引起了一个探讨， Agent 和 AI 硬件该如何共存？ 关于这个问题，雷峰网找到了一家正在以 Agent OS 切入AI 硬件赛道的明星公司光帆科技创
+4、1月1日消息，作者｜黄楠 编辑｜袁斯来 当蓝牙耳机市场趋于饱和，消费者开始寻找更多元、更无感的佩戴方案时，“开放式耳机”正成为新的角力场。然而，纯粹的技术叠加已无法满足期待。 12月30日，MOVA TPEAK推出的Clip Pro耳夹耳机，则采用了一种将“专业声学”、“舒适穿戴”与“移动AI” 深度融合的思路。 开放式耳机的核心矛盾在于“开放式”与“音质保真” 的平衡。传统开放式方案普遍存在低频泄露、环境声干
+5、1月1日消息，雷峰网讯 AI 科技评论独家获悉，AI Coding 创业公司 AIGCode 近日完成了由博华资本、力合资本分别领投的连续融资，力合金融以及多家产业方资本跟投。这家创立于 2024 年 1 月的公司，并未追随 Copilot 类产品的浪潮，而是从 Day 1 起即决定直接做端到端的 Autopilot 产品。 AIGCode 创始人兼 CEO 宿文博士毕业于清华大学工程专业，连续创业者，此前还曾
+
+国际动态：
+1、1月1日消息，arXiv:2512.24156v1 Announce Type: new Abstract: We present a training-free graph-based approach for solving interactive reasoning tasks in the ARC-AGI-3 benchmark. ARC-AGI-3 comprises game-like tasks 
+2、1月1日消息，arXiv:2512.24040v1 Announce Type: new Abstract: Automatic Prompt Optimization (APO) has emerged as a critical technique for enhancing Large Language Model (LLM) performance, yet current state-of-the-a
+3、1月1日消息，arXiv:2512.24077v1 Announce Type: new Abstract: The transition from static Large Language Models (LLMs) to self-improving agents is hindered by the lack of structured reasoning in traditional evolutio
+4、1月1日消息，The US government has lifted sanctions on three people who it previously accused of aiding in the proliferation of “Predator” spyware, a sophisticated surveillance technology that’s allegedly been use
+5、1月1日消息，arXiv:2512.23880v1 Announce Type: new Abstract: Large language model (LLM) agents currently depend on predefined tools or brittle tool generation, constraining their capability and adaptability to com
+
+
+╔════════════════════════════════════════════════════════════════════╗
+║                         📰 完整版报告                          ║
+╚════════════════════════════════════════════════════════════════════╝
+
+【国内动态】
+--------------------------------------------------
+1、🔥 1月1日消息，文｜邓咏仪 编辑｜苏建勋 12月末的AI圈异常热闹：智谱、MiniMax的“港股AI第一股”之争刚落幕，2025年最后一天，月之暗面（Kimi）默默甩出最后一炸：完成5亿美金的新一轮融资。 据智能涌现了解，本轮融资由IDG领投，阿里、腾讯等月之暗面老股东超额认购，公司投后估值达43亿美元。据《智能涌现》了解，月之暗面这一轮超额认购的老股东，还包括高榕创投和今日资本。 超额认购，意味着老股东对被投项
+   📋 入选理由: 影响力评分: 435.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3620347860862209?f=rss
+   🏷️ 标签: 估值, SOTA, 发布, 融资, 大模型
+
+2、🔥 1月1日消息，大公司： 银河证券：国产EDA正处于“政策驱动+技术突破+需求高增”三重共振期 36氪获悉，中国银河证券研报称，我们认为，国产EDA正处于“政策驱动+技术突破+需求高增”三重共振期，短期看国产替代与并购整合，中期看全流程覆盖与AI赋能，长期看全球份额提升，建议关注产业链核心标的长期投资价值。 特斯拉在韩国降价 据Businesskorea报道，12月31日，特斯拉将在其韩国销售的汽车的价格下调了至
+   📋 入选理由: 影响力评分: 322.5
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3618853154538505?f=rss
+   🏷️ 标签: AI, 投资, IPO, 突破, 并购
+
+3、🔥 1月1日消息，作者丨齐铖湧 编辑丨代聪飞 今天，Meta 数十亿美元收购 Manus的消息，鼓舞了无数国内AI创业者。这家来自中国的 Agent 创业公司，不到一年时间，将ARR 做到 1 亿美元并被 Meta 收购，不仅让大众看到了 Agent 的潜力之大，也引起了一个探讨， Agent 和 AI 硬件该如何共存？ 关于这个问题，雷峰网找到了一家正在以 Agent OS 切入AI 硬件赛道的明星公司光帆科技创
+   📋 入选理由: 影响力评分: 255.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/weiwu/CZcFPIWD7dNTIZbD.html
+   🏷️ 标签: 估值, 发布, 十亿, AI, 收购
+
+4、🔥 1月1日消息，作者｜黄楠 编辑｜袁斯来 当蓝牙耳机市场趋于饱和，消费者开始寻找更多元、更无感的佩戴方案时，“开放式耳机”正成为新的角力场。然而，纯粹的技术叠加已无法满足期待。 12月30日，MOVA TPEAK推出的Clip Pro耳夹耳机，则采用了一种将“专业声学”、“舒适穿戴”与“移动AI” 深度融合的思路。 开放式耳机的核心矛盾在于“开放式”与“音质保真” 的平衡。传统开放式方案普遍存在低频泄露、环境声干
+   📋 入选理由: 影响力评分: 249.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3619177035072774?f=rss
+   🏷️ 标签: 大模型, 开放, 发布, AI
+
+5、🔥 1月1日消息，雷峰网讯 AI 科技评论独家获悉，AI Coding 创业公司 AIGCode 近日完成了由博华资本、力合资本分别领投的连续融资，力合金融以及多家产业方资本跟投。这家创立于 2024 年 1 月的公司，并未追随 Copilot 类产品的浪潮，而是从 Day 1 起即决定直接做端到端的 Autopilot 产品。 AIGCode 创始人兼 CEO 宿文博士毕业于清华大学工程专业，连续创业者，此前还曾
+   📋 入选理由: 影响力评分: 245.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/industrynews/rgtNCdS9mCuAG91V.html
+   🏷️ 标签: CEO, 发布, 融资, 大模型, 上线
+
+6、🔥 1月1日消息，最近，一款面向全球招聘市场的“AI猎头”应用引起资本市场关注。 亚洲初创企业NGA宣布，旗下的人工智能招聘平台 HelloBoss 完成 A 轮融资，由贝塔斯曼集团通过 BAI 资本投资，资金将主要用于AI Agent及前后端产品等技术研发、全球市场拓展以及多个岗位的人员扩张。此前，HelloBoss已获得数十位日本知名天使投资人、云启资本及风投机构GOLDEN EGG的3轮投资。 「HelloB
+   📋 入选理由: 影响力评分: 240.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3619067392836613?f=rss
+   🏷️ 标签: 人工智能, 发布, 融资, 首次, AI
+
+7、🔥 1月1日消息，2025年12月31日从贯彻海南省委经济工作会议精神暨自贸港封关进展情况新闻发布会上获悉，自2025年12月18日海南自贸港正式启动全岛封关以来，在封关政策带动下，截至2025年12月28日，全省新增经营主体11957家。封关以来，截至2025年12月28日，经海南自贸港各对外开放口岸进出境旅客11.21万人次，其中免签入境旅客3.27万人次；民航进出境航空器753架次；进出境船舶180艘次。经各
+   📋 入选理由: 影响力评分: 234.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3620381270361088?f=rss
+   🏷️ 标签: 开放, 发布
+
+8、🔥 1月1日消息，科技养老，正在成为新趋势。 在美国，初创公司Inspiren凭借行业首个“直击老年社区核心痛点”的集成解决方案，迅速成为赛道焦点。作为AI预测引擎，Intelligence的作用不是记录老人“昨天发生了什么”，而是分析“现在正在发生什么”，并告诉你“明天可能有什么危险”。 具体来说，Inspiren通过专有硬件AUGi的“几何外骨骼监测（GEM）”技术，实时跟踪人体的骨骼几何形状和运动轨迹；这些采
+   📋 入选理由: 影响力评分: 225.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3619219481953283?f=rss
+   🏷️ 标签: 融资, 风险, AI, 投资
+
+9、🔥 1月1日消息，025年12月31日，武汉地铁线网客运量首次突破600万乘次创下历史新高，达到602.2万乘次，较2024年12月31日541.4万乘次高出11%。全天线网开行列次达到5815列创历史新高，运行图兑现率达到100%、正点率达到99.98%。
+   📋 入选理由: 影响力评分: 221.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3620384736150786?f=rss
+   🏷️ 标签: 首次, 突破
+
+10、🔥 1月1日消息，2025年，黑龙江省粮食生产实现“二十二连丰”，总产量继2024年首次突破1600亿斤后再度站稳该台阶，达1640.06亿斤，连续16年位居全国首位。
+   📋 入选理由: 影响力评分: 221.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3620383790908422?f=rss
+   🏷️ 标签: 首次, 突破
+
+11、🔥 1月1日消息，2025年，上汽通用五菱累计销量突破163.5万辆，同比增长6.2%，其中，新能源汽车累计销量首次突破百万辆，达到1000066辆，新能源渗透率从2024年底的50%提升至61%。上汽通用五菱全年海外销量超26.6万台套，连续10年创下新高，其中新能源出口累计超9.4万台套，同比增长128.6%。
+   📋 入选理由: 影响力评分: 221.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3620381681485058?f=rss
+   🏷️ 标签: 首次, 突破
+
+12、🔥 1月1日消息，在这一轮波澜壮阔的人工智能浪潮中，我们常被算力、模型规模和颠覆式叙事所簇拥。然而，真正值得记录的变化，往往发生在那些远离喧嚣的实验室里、发生在一行行代码与科学假设的碰撞中：AI 是如何从一种“使能技术”，演变为改变人类推进科研的基本范式的？ 2025年，AI4Science（AI4S）不再仅仅是论文中的愿景。它正以一种极其务实且具体的姿态，嵌入到每一位科学家的日常。 在这一年里，我们看到 AI4S
+   📋 入选理由: 影响力评分: 200.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/yanxishe/HWP4OEEqOExyNzia.html
+   🏷️ 标签: 开源, 人工智能, 诺贝尔, AI, 突破
+
+13、🔥 1月1日消息，雷峰网讯 从工厂、矿区的封闭路段到更加开放的世界，自动驾驶技术面临着来自真实交通环境的多重挑战。变道超车的车辆、突然打开的车门、横穿马路的行人……当自动驾驶系统学着给这些动态对象进行4D建模、重建和再仿真时，大多数解决方案仍然依赖于每场景优化、已知的相机校准或短帧窗口，这使得它们变得缓慢且不实用。 能否快速、低成本获得动态驾驶场景下的仿真数据，决定了自动驾驶系统在开放世界中的进化速度。在这一背景下
+   📋 入选理由: 影响力评分: 200.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/industrynews/SYAGG5WQ7Kt3C0SE.html
+   🏷️ 标签: 人工智能, SOTA, 开放, AI, 突破
+
+14、🔥 1月1日消息，12月12日，第八届GAIR全球人工智能与机器人大会在深圳正式启幕。 本次大会为期两天，由GAIR研究院与雷峰网联合主办，高文院士任指导委员会主席，杨强院士与朱晓蕊教授任大会主席。 作为观测AI技术演进与生态变迁的重要窗口，GAIR大会自2016年创办以来以来，始终与全球AI发展的脉搏同频共振，见证了技术浪潮从实验室涌向产业深海。2025年，是大模型从“技术破壁”迈向“价值深耕”的关键节点，值此之
+   📋 入选理由: 影响力评分: 200.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/ai/zugwInO5XOUbKAcr.html
+   🏷️ 标签: 人工智能, CEO, 大语言模型, 大模型, 超越
+
+15、🔥 1月1日消息，雷峰网从知情人处获悉，AI明星创业公司光帆科技，近期连续完成多轮融资，估值将进一步增长到10亿元。与此同时，光帆科技将抢先OpenAI、苹果、Meta等巨头，于明日正式发布其首款AI硬件产品：全球首个搭载摄像头的AI耳机。 光帆科技成立于2024年10月，由前小米自研手机及汽车OS负责人、89号员工董红光离职创办，主打面向下一代人机交互的AI可穿戴硬件及通用 AI Agent。 01 中国创业公司
+   📋 入选理由: 影响力评分: 200.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/ai/iWZj59Ifr8Suf7Z0.html
+   🏷️ 标签: 估值, 发布, 融资, 大模型, AI
+
+16、🔥 1月1日消息，作者丨齐铖湧 编辑丨马晓宁 世界模型的研究尚处于起步阶段，共识尚未形成，有关该领域的研究形成了无数支流，过去一年多，Sora为代表的视频生成模型，成为继大语言模型（LLM）后新的学术热点。本质上讲，当下火爆的视频生成模型，是一种世界模型，其核心目的是生成一段逼真、连贯的视频。 要达到这样的目的，模型必须在一定程度上理解这个世界的运作方式（比如水往低处流、物体碰撞后的运动、人的合理动作等）。 胡文博
+   📋 入选理由: 影响力评分: 195.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/ai/GBuYyTebWmDmyixI.html
+   🏷️ 标签: LLM, 大语言模型, Sora, 开放, AI
+
+17、🔥 1月1日消息，近日，由中国商报社联合中国商界杂志社、中国商人杂志社、中国收藏杂志社、中国烹饪杂志社、中国经贸杂志社共同举办的第十二届中国商业创新大会暨推动中国商业进程四十年活动在北京召开。大会以“此刻即未来：创新领航商业新征途”为主题，汇集来自政府、行业协会、企业、学界等各领域的领导、专家及代表，深入剖析商业创新的前沿趋势与策略，共同探索商业创新的无限可能。 睿尔曼智能受邀参会，并凭借 “云领计划” 的突破性创
+   📋 入选理由: 影响力评分: 185.0
+   📰 来源: AI科技评论 | 🔗 https://www.leiphone.com/category/ai/sg9G7hZnG6Uzf7xx.html
+   🏷️ 标签: 创新, 开放, 突破
+
+18、🔥 1月1日消息，当公司营收破10亿后，唯迹科技创始人兼CEO邹青飞行的距离也越来越远。 2025年春节，邹青第一次坐上飞往巴西的航班。 那是南半球夏季最炎热的时候。他穿梭在圣保罗拥挤的电子市场和物流仓库中拜访客户。热浪裹着繁杂人声，邹青会忍不住感慨：巴西市场实在太好了。 邹青来巴西前，唯迹科技在巴西已经开展了一年的电商业务，每月营收同比增速达200%。他接待过来自巴西的访问团，他们来中国学习电商经验，在巴西教当地
+   📋 入选理由: 影响力评分: 162.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3618135018112260?f=rss
+   🏷️ 标签: 领先, 发布, 收购, CEO
+
+19、🔥 1月1日消息，作者 | 彭倩 编辑 | 乔芊 推进“双轮驱动”的第一年，盒马交出了不错的成绩单。 2026年伊始，盒马CEO严筱磊（花名：百何）向全员发出内部信，披露了过去一年盒马的成绩。2025年，盒马实现了超40%的营收同比增速。 36氪曾独家了解到，盒马2025财年首次实现全年经调整 EBITA 盈利。在2025年8月7日盒马10周年的发布会上，首次公开亮相的盒马CEO严筱磊也提及了该数据，她还补充了细节
+   📋 入选理由: 影响力评分: 147.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/p/3620282777715970?f=rss
+   🏷️ 标签: 首次, 发布, CEO
+
+20、🔥 1月1日消息，土耳其《官方公报》发布总统令，宣布自2026年1月2日起，对持中国普通护照的公民实行免签入境政策。消息带动土耳其相关搜索猛增，去哪儿数据显示，截至1月1日上午10时，国内飞往土耳其伊斯坦布尔搜索量环比上周增3.2倍，旅游胜地安塔利亚涨1.3倍，土耳其第三大城市、爱琴海边的伊兹密尔涨2倍以上。上海、广州、北京、中国香港、成都、深圳、杭州、西安、重庆、厦门是搜索热度最高的十个出发地，环比上周均有2倍以
+   📋 入选理由: 影响力评分: 145.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3620281495421961?f=rss
+   🏷️ 标签: 发布, 总统令
+
+
+【国际动态】
+--------------------------------------------------
+1、🔥 1月1日消息，arXiv:2512.24156v1 Announce Type: new Abstract: We present a training-free graph-based approach for solving interactive reasoning tasks in the ARC-AGI-3 benchmark. ARC-AGI-3 comprises game-like tasks 
+   📋 入选理由: 影响力评分: 270.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.24156
+   🏷️ 标签: LLM, AGI, state-of-the-art, AI, reasoning
+
+2、🔥 1月1日消息，arXiv:2512.24040v1 Announce Type: new Abstract: Automatic Prompt Optimization (APO) has emerged as a critical technique for enhancing Large Language Model (LLM) performance, yet current state-of-the-a
+   📋 入选理由: 影响力评分: 245.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.24040
+   🏷️ 标签: LLM, state-of-the-art, large language model, fine, alignment
+
+3、🔥 1月1日消息，arXiv:2512.24077v1 Announce Type: new Abstract: The transition from static Large Language Models (LLMs) to self-improving agents is hindered by the lack of structured reasoning in traditional evolutio
+   📋 入选理由: 影响力评分: 185.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.24077
+   🏷️ 标签: LLM, state-of-the-art, large language model, AI, reasoning
+
+4、🔥 1月1日消息，The US government has lifted sanctions on three people who it previously accused of aiding in the proliferation of “Predator” spyware, a sophisticated surveillance technology that’s allegedly been use
+   📋 入选理由: 影响力评分: 180.0
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/articles/2025-12-31/us-lifts-sanctions-on-trio-accused-of-work-on-predator-spyware
+   🏷️ 标签: surveillance, sanctions, AI
+
+5、🔥 1月1日消息，arXiv:2512.23880v1 Announce Type: new Abstract: Large language model (LLM) agents currently depend on predefined tools or brittle tool generation, constraining their capability and adaptability to com
+   📋 入选理由: 影响力评分: 145.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.23880
+   🏷️ 标签: LLM, large language model, fine, acquisition, AI
+
+6、🔥 1月1日消息，arXiv:2512.24263v1 Announce Type: new Abstract: When fine-tuning pre-trained Language Models (LMs) to exhibit desired behaviors, maintaining control over risk is critical for ensuring both safety and 
+   📋 入选理由: 影响力评分: 145.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.24263
+   🏷️ 标签: fine, AGI, alignment, AI
+
+7、🔥 1月1日消息，arXiv:2512.24461v1 Announce Type: new Abstract: In this paper, we propose a test-time adaptive agent that performs exploratory inference through posterior-guided belief refinement without relying on g
+   📋 入选理由: 影响力评分: 145.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.24461
+   🏷️ 标签: LLM, outperforms, fine, alignment, AI
+
+8、🔥 1月1日消息，arXiv:2512.24686v1 Announce Type: new Abstract: Fault diagnosis of lithium-ion batteries is critical for system safety. While existing deep learning methods exhibit superior detection accuracy, their 
+   📋 入选理由: 影响力评分: 135.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.24686
+   🏷️ 标签: LLM, large language model, AI, reasoning, deep learning
+
+9、🔥 1月1日消息，arXiv:2512.24008v1 Announce Type: new Abstract: Personalized search demands the ability to model users' evolving, multi-dimensional information needs; a challenge for systems constrained by static pro
+   📋 入选理由: 影响力评分: 130.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.24008
+   🏷️ 标签: LLM, large language model, fine, AI, introduces
+
+10、🔥 1月1日消息，arXiv:2512.24532v1 Announce Type: new Abstract: Spatial reasoning in large language models (LLMs) has gained increasing attention due to applications in navigation and planning. Despite strong general
+   📋 入选理由: 影响力评分: 130.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.24532
+   🏷️ 标签: LLM, large language model, fine, AI, reasoning
+
+11、🔥 1月1日消息，arXiv:2512.24957v1 Announce Type: new Abstract: We present STAgent, an agentic large language model tailored for spatio-temporal understanding, designed to solve complex tasks such as constrained poin
+   📋 入选理由: 影响力评分: 130.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.24957
+   🏷️ 标签: fine, AI, large language model, reasoning
+
+12、🔥 1月1日消息，Three biggest US private tech groups plan listings as early as this year, raising hopes of windfall for banks, lawyers and investors
+   📋 入选理由: 影响力评分: 127.5
+   📰 来源: Financial Times Tech | 🔗 https://www.ft.com/content/bf607829-dca5-497d-b1a1-ca945d32a8c6
+   🏷️ 标签: IPO, AI
+
+13、🔥 1月1日消息，Welcome to Tech In Depth, our daily newsletter about the business of tech from Bloomberg’s journalists around the world. Today, Vlad Savov and Lulu Chen look at the enthusiastic reaction in Chinese VC
+   📋 入选理由: 影响力评分: 127.5
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/newsletters/2025-12-31/meta-s-manus-deal-validates-belief-in-chinese-innovation
+   🏷️ 标签: acquisition, AI
+
+14、🔥 1月1日消息，arXiv:2512.24113v1 Announce Type: new Abstract: Large Language Models (LLMs) have demonstrated a remarkable capacity in understanding user preferences for recommendation systems. However, they are con
+   📋 入选理由: 影响力评分: 120.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.24113
+   🏷️ 标签: LLM, large language model, acquisition, AI, reasoning
+
+15、🔥 1月1日消息，arXiv:2512.24615v1 Announce Type: new Abstract: Existing Large Language Model (LLM) agent frameworks face two significant challenges: high configuration costs and static capabilities. Building a high-
+   📋 入选理由: 影响力评分: 115.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.24615
+   🏷️ 标签: LLM, fine, large language model
+
+16、🔥 1月1日消息，arXiv:2512.24940v1 Announce Type: new Abstract: We show that iterative deployment of large language models (LLMs), each fine-tuned on data carefully curated by users from the previous models' deployme
+   📋 入选理由: 影响力评分: 115.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.24940
+   🏷️ 标签: LLM, fine, large language model, AI
+
+17、🔥 1月1日消息，From tariffs to AI to inflation, these were the trends that shaped Wall Street, Main Street and Silicon Valley in 2025.
+   📋 入选理由: 影响力评分: 115.0
+   📰 来源: CNBC Tech | 🔗 https://www.cnbc.com/2025/12/31/5-things-to-know-before-the-stock-market-opens.html
+   🏷️ 标签: fine, AI
+
+18、🔥 1月1日消息，arXiv:2512.23932v1 Announce Type: new Abstract: Accurate disease prediction is vital for timely intervention, effective treatment, and reducing medical complications. While symbolic AI has been applie
+   📋 入选理由: 影响力评分: 105.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.23932
+   🏷️ 标签: LLM, large language model, introduces, AI
+
+19、🔥 1月1日消息，arXiv:2512.24565v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly serving as autonomous agents, and their utilization of external tools via the Model Context Protocol (MCP)
+   📋 入选理由: 影响力评分: 105.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.24565
+   🏷️ 标签: LLM, large language model, valuation, AI
+
+20、🔥 1月1日消息，arXiv:2512.24504v1 Announce Type: new Abstract: Map environments provide a fundamental medium for representing spatial structure. Understanding how foundation model (FM) agents understand and act in s
+   📋 入选理由: 影响力评分: 100.0
+   📰 来源: arXiv AI | 🔗 https://arxiv.org/abs/2512.24504
+   🏷️ 标签: valuation, reasoning
+
+
+======================================================================
+📊 今日总结: 今日从108条原始信息中精选出20条国内动态和20条国际动态，其中40条为高重要性。 重点关注：摆脱“投流噩梦”，月之暗面的100亿元与杨植麟的信心；36氪晚报｜特斯拉在韩国降价；宇树科技全球首店落地京东MALL；MiniMax香港IPO据称获得数倍认购；对话光帆科技董红光：Manus 让 Agent 走红，但真正的 AI 载体不只有手机。
+======================================================================
