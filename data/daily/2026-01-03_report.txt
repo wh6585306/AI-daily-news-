@@ -1,0 +1,213 @@
+======================================================================
+AI每日动态 - 2026-01-03
+生成时间: 2026-01-03 08:16:51
+数据来源: 从 64 条原始信息中精选
+======================================================================
+
+╔════════════════════════════════════════════════════════════════════╗
+║                         📋 精简版报告                          ║
+╚════════════════════════════════════════════════════════════════════╝
+
+国内动态：
+1、1月3日消息，又一家中国量化公司杀疯了
+2、1月3日消息，比亚迪也投资了
+3、1月3日消息，当地时间1月2日，美国电动汽车制造商特斯拉公司公布的数据显示，该公司2025年全球交付汽车163.6万辆，同比下降约8.6%。这是特斯拉有史以来首次在全年电动汽车销量上被中国汽车制造商比亚迪超越。（每经网）
+4、1月3日消息，2026年市场徐徐展开，截至2025年12月31日，元旦后陆续入市的公募资金规模在430亿元以上。一是拟于元旦后上市的16只ETF，合计资金规模近50亿元；二是于2025年11月后成立的60多只处于建仓初期的主动权益基金，合计规模约为380多亿元。 券商中国记者采访了解到，新年上市ETF的持有人，以个人投资者居多，不少产品的个人投资者持有份额占比在90%以上。从底层资金来源看，根据机构预测，居民储
+5、1月3日消息，印度证券交易委员会于周五发布的一份公告显示，该机构已针对投资银行出台新规，内容涵盖提高资本充足率要求、强化合规监管措施等方面。 现有投资银行将拥有两年过渡期，以全面落实新规要求。 大型投资银行需在2027年1月前将资本充足率对应的最低净资产维持在2.5亿卢比，2028年1月前进一步提升至5亿卢比； 小型投资银行则需在2027年1月前将该指标达标线设为7500万卢比，2028年1月前提升��1亿卢比
+
+国际动态：
+1、1月3日消息，Jannick Malling, Co-Founder & Co-CEO of Public.com, joins Vonnie Quinn and Norah Mulinda to discuss how retail investors are using AI, the kind of crypto growth to expect this year on the platform, an
+2、1月3日消息，Samsung Electronics Co.’s shares gained their most in about six months after its co-chief executive officer quoted customers as saying “Samsung is Back,” further fueling a broader Asian tech stock ral
+3、1月3日消息，By now every firm on Wall Street is well aware of the risks surrounding the artificial intelligence boom. But when it comes to the year ahead, few advocate walking away from what they describe as a “r
+4、1月3日消息，Three-year-old startup Mercor has become a $10 billion middleman in AI’s data gold rush. The company connects AI labs like OpenAI and Anthropic with former employees of Goldman Sachs, McKinsey, and wh
+5、1月3日消息，Evaluation of use cases and business models will dominate 2026
+
+
+╔════════════════════════════════════════════════════════════════════╗
+║                         📰 完整版报告                          ║
+╚════════════════════════════════════════════════════════════════════╝
+
+【国内动态】
+--------------------------------------------------
+1、🔥 1月3日消息，又一家中国量化公司杀疯了
+   📋 入选理由: 影响力评分: 435.0
+   📰 来源: 量子位 | 🔗 https://www.qbitai.com/2026/01/366408.html
+   🏷️ 标签: 大模型, 开源, SOTA, GPT-5, Opus
+
+2、🔥 1月3日消息，比亚迪也投资了
+   📋 入选理由: 影响力评分: 240.0
+   📰 来源: 量子位 | 🔗 https://www.qbitai.com/2026/01/366454.html
+   🏷️ 标签: IPO, AI, 投资
+
+3、🔥 1月3日消息，当地时间1月2日，美国电动汽车制造商特斯拉公司公布的数据显示，该公司2025年全球交付汽车163.6万辆，同比下降约8.6%。这是特斯拉有史以来首次在全年电动汽车销量上被中国汽车制造商比亚迪超越。（每经网）
+   📋 入选理由: 影响力评分: 221.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623162716718087?f=rss
+   🏷️ 标签: 首次, 超越
+
+4、🔥 1月3日消息，2026年市场徐徐展开，截至2025年12月31日，元旦后陆续入市的公募资金规模在430亿元以上。一是拟于元旦后上市的16只ETF，合计资金规模近50亿元；二是于2025年11月后成立的60多只处于建仓初期的主动权益基金，合计规模约为380多亿元。 券商中国记者采访了解到，新年上市ETF的持有人，以个人投资者居多，不少产品的个人投资者持有份额占比在90%以上。从底层资金来源看，根据机构预测，居民储
+   📋 入选理由: 影响力评分: 195.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623086386988293?f=rss
+   🏷️ 标签: 上市, 投资
+
+5、🔥 1月3日消息，印度证券交易委员会于周五发布的一份公告显示，该机构已针对投资银行出台新规，内容涵盖提高资本充足率要求、强化合规监管措施等方面。 现有投资银行将拥有两年过渡期，以全面落实新规要求。 大型投资银行需在2027年1月前将资本充足率对应的最低净资产维持在2.5亿卢比，2028年1月前进一步提升至5亿卢比； 小型投资银行则需在2027年1月前将该指标达标线设为7500万卢比，2028年1月前提升��1亿卢比
+   📋 入选理由: 影响力评分: 160.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623284981859588?f=rss
+   🏷️ 标签: 发布, 监管, 投资
+
+6、🔥 1月3日消息，据南京发布，在江苏箸境智能科技有限公司数据采集室内，工作人员轻轻弯肘、抬臂、向前抓取——每一个基础动作，都被实时同步给一旁的机器人，转化为一条条结构化的数据。这些数据包含视频、关节角度与力矩参数，如同给机器注入了“肌肉记忆”。近日，由这些数据汇聚而成的“具身智能数据集”在江苏省数据交易所上架并完成交易，实现全国范围内具身智能数据集数交所交易的“零的突破”。（财联社）
+   📋 入选理由: 影响力评分: 132.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623375084815364?f=rss
+   🏷️ 标签: 发布, 突破
+
+7、🔥 1月3日消息，据海口海关统计，元旦假期前两日：海口海关共监管海南离岛免税销售30.7万件，同比增长48.3%；购物人数达6.5万人次，同比增长60.9%；购物金额达5.05亿元，同比增长121.5%。（央视新闻）
+   📋 入选理由: 影响力评分: 130.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623329753941257?f=rss
+   🏷️ 标签: 监管
+
+8、🔥 1月3日消息，成功进入“密度自由区”
+   📋 入选理由: 影响力评分: 127.5
+   📰 来源: 量子位 | 🔗 https://www.qbitai.com/2026/01/366477.html
+   🏷️ 标签: 突破
+
+9、🔥 1月3日消息，把触觉转成“神经脉冲”
+   📋 入选理由: 影响力评分: 127.5
+   📰 来源: 量子位 | 🔗 https://www.qbitai.com/2026/01/366466.html
+   🏷️ 标签: 突破
+
+10、🔥 1月3日消息，据央视新闻，记者今天从国家药监局获悉，2025年我国已批准上市的创新药达76个，大幅超过2024年全年48个，创历史新高。此外，2025年我国创新药对外授权交易总金额超过1300亿美元，授权交易数量超过150笔，同样创历史新高。据了解，2025年国家药监局批准上市的76个创新药，包括47个化学药品、23个生物制品和6个中药。47个化学药品中，38个为国产创新药，9个为进口创新药，国产创新药占比达8
+   📋 入选理由: 影响力评分: 125.5
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623331185788163?f=rss
+   🏷️ 标签: 创新, 上市
+
+11、🔥 1月3日消息，36氪获悉，1月3日，飞猪发布的《2026元旦假期出游快报》显示，元旦假期，消费者出游意愿与消费力双双提升：人均购买件数同比增长超20%、人均消费金额同比去年增长超30%。1月1日元旦当天，飞猪国内酒店预订量同比去年劲增280%，国内目的地玩乐商品预订量同比增长超270%。
+   📋 入选理由: 影响力评分: 117.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623283749651720?f=rss
+   🏷️ 标签: 发布
+
+12、🔥 1月3日消息，小米公司发言人官方微博发文，对小米17 Ultra徕卡版变焦环结构原理进行说明。小米表示，近日大量社交媒体账号发布视频，对某拆机博主的小米17 Ultra徕卡版拆机内容断章取义、歪曲解读，称“变焦环造假，是软件调控”。这一说法，与事实严重不符。针对相关恶意歪曲、误导性传播，原拆机博主本人已发布澄清内容。（华尔街见闻）
+   📋 入选理由: 影响力评分: 117.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623282864817154?f=rss
+   🏷️ 标签: 发布
+
+13、🔥 1月3日，携程最新发布的元旦旅行报告显示，2026年元旦假期，国内旅游市场迎来强劲开局，文旅消费热潮全面点燃，国内景区门票预订量同比增长超4倍，入境游相关预订亦大幅提升，掀起了2026年度首个消费热潮。（华尔街见闻）
+   📋 入选理由: 影响力评分: 117.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623229002810371?f=rss
+   🏷️ 标签: 发布
+
+14、🔥 1月3日消息，36氪获悉，1月2日，抖音生活服务发布元旦跨年消费数据。2025年12月30日至2026年1月1日，平台内商超购物、跨城文旅游、冰雪温泉游、线下手工体验等多元消费全面升温，体验经济迎显著增长。
+   📋 入选理由: 影响力评分: 117.0
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623164350940167?f=rss
+   🏷️ 标签: 发布
+
+15、🔥 1月3日消息，中信建投研报称，2026年A股牛市有望持续，预计指数依然震荡上行但涨幅放缓，投资者更加关注基本面改善和景气验证。应警惕科技板块结构性/阶段性回调风险，资源品很可能成为A股在科技主线后一条新的主线方向。行业重点关注：新能源、有色金属、基础化工、石油石化、非银、军工、机械设备、计算机等。主题重点关注：新材料、固态电池、商业航天、核电、两岸融合等。（第一财经）
+   📋 入选理由: 影响力评分: 112.5
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623402577528067?f=rss
+   🏷️ 标签: 风险, 投资
+
+16、🔥 1月3日消息，作为国家“八纵八横”高铁网络中的重要枢纽，陕西西安东站正在加速建设。目前，这座西北地区最大的高铁站房主体结构全面完工，这个元旦假期，工程建设依然在全速推进。据了解，西安东站不仅是西安“米”字形高铁网的关键一环，更是国家“八纵八横”高铁网络中的重要枢纽——从东站延伸出的正在建设的西康高铁，正是“八纵八横”高铁通道包（银）海通道、京昆通道的重要组成部分。预计在今年6月，西安东站与西康高铁将同步投入运营
+   📋 入选理由: 影响力评分: 110.5
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623376102900740?f=rss
+   🏷️ 标签: 首次
+
+17、🔥 1月3日消息，据“北京顺义”微信公众号消息，截至2025年12月31日，北京口岸2025年全年出入境人员总量达2140万余人次，同比增长17.4%，创下2020年以来北京口岸出入境人员量新高。 从全年出入境人员量来看，外国人入出境数量增长明显，经北京口岸入出境外国人超650万人次，占出入境人员总量的30.4%，同比增长34.5%。其中享受免签和临时入境许可政策入境的外国人突破200万人次，是去年同期的1.9倍，
+   📋 入选理由: 影响力评分: 110.5
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623282309137666?f=rss
+   🏷️ 标签: 突破
+
+18、🔥 1月3日消息，据新华社，以色列汽车进口商协会2日公布数据显示，中国汽车制造商奇瑞生产的捷途7成为2025年以色列销量最高的车型。数据显示，捷途7全年在以色列共售出约1.3万辆，韩国汽车品牌现代生产的科纳以约1.2万辆的销量位居第二。中国品牌汽车2025年在以售出10.1万辆，销量位居第一。韩国品牌以5.2万辆位居第二，日本品牌以4.1万辆排名第三。在纯电动汽车领域，中国品牌以79.2%的市场份额领先，全年共售出
+   📋 入选理由: 影响力评分: 110.5
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623165384606721?f=rss
+   🏷️ 标签: 领先
+
+19、🔥 1月2日，有消息称流媒体巨头Netflix希望在完成对华纳兄弟的收购后，将华纳兄弟电影的院线独占放映期缩短至17天，这一做法引发传统影院及好莱坞电影创作者的担忧。媒体称，在讨论《怪奇物语》第五季大结局院线放映表现时，好莱坞业内对Netflix所称的“行业标准放映窗口”表达了疑虑。消息人士称，Netflix一直主张17天的院线窗口期，而包括AMC在内的院线方则坚持认为应维持在目前常见的45天左右。尽
+   📋 入选理由: 影响力评分: 97.5
+   📰 来源: 36氪 | 🔗 https://36kr.com/newsflashes/3623088671147266?f=rss
+   🏷️ 标签: 收购
+
+
+【国际动态】
+--------------------------------------------------
+1、🔥 1月3日消息，Jannick Malling, Co-Founder & Co-CEO of Public.com, joins Vonnie Quinn and Norah Mulinda to discuss how retail investors are using AI, the kind of crypto growth to expect this year on the platform, an
+   📋 入选理由: 影响力评分: 262.5
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/videos/2026-01-02/how-investors-will-be-using-ai-in-2026-video
+   🏷️ 标签: CEO, joins, founder, AI
+
+2、🔥 1月3日消息，Samsung Electronics Co.’s shares gained their most in about six months after its co-chief executive officer quoted customers as saying “Samsung is Back,” further fueling a broader Asian tech stock ral
+   📋 入选理由: 影响力评分: 180.0
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/articles/2026-01-02/ceo-s-unusual-samsung-is-back-remark-fuels-korea-tech-rally
+   🏷️ 标签: CEO, chief, AI
+
+3、🔥 1月3日消息，By now every firm on Wall Street is well aware of the risks surrounding the artificial intelligence boom. But when it comes to the year ahead, few advocate walking away from what they describe as a “r
+   📋 入选理由: 影响力评分: 142.5
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/videos/2026-01-02/for-review-wall-street-shifts-focus-to-ai-as-key-driver-of-economic-and-market-growth-in-2026
+   🏷️ 标签: revolutionary, AI, artificial intelligence
+
+4、🔥 1月3日消息，Three-year-old startup Mercor has become a $10 billion middleman in AI’s data gold rush. The company connects AI labs like OpenAI and Anthropic with former employees of Goldman Sachs, McKinsey, and wh
+   📋 入选理由: 影响力评分: 127.5
+   📰 来源: TechCrunch AI | 🔗 https://techcrunch.com/podcast/how-ai-is-reshaping-work-and-who-gets-to-do-it-according-to-mercors-ceo/
+   🏷️ 标签: CEO, billion, AI
+
+5、🔥 1月3日消息，Evaluation of use cases and business models will dominate 2026
+   📋 入选理由: 影响力评分: 127.5
+   📰 来源: Financial Times Tech | 🔗 https://www.ft.com/content/a221f976-6b06-4916-9b87-96e63213d8a2
+   🏷️ 标签: AI, valuation
+
+6、🔥 1月3日消息，India has approved $4.6 billion in electronics component investments as the Narendra Modi government steps up efforts to build local supply chains and challenge China.
+   📋 入选理由: 影响力评分: 127.5
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/articles/2026-01-02/india-approves-4-6-billion-to-boost-electronics-supply-chain
+   🏷️ 标签: AI, billion
+
+7、🔥 1月3日消息，Baidu Inc.’s artificial-intelligence chip unit has confidentially filed for a Hong Kong initial public offering, kicking off what’s expected to be a busy year for listings by companies backing China’s
+   📋 入选理由: 影响力评分: 127.5
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/articles/2026-01-02/baidu-s-ai-chip-unit-kunlunxin-confidentially-files-for-hong-kong-ipo
+   🏷️ 标签: IPO, AI
+
+8、🔥 1月3日消息，LG previewed its next-gen Gram models, combining updated hardware and vivid screens with a newly developed lightweight material.
+   📋 入选理由: 影响力评分: 115.0
+   📰 来源: ZDNet AI | 🔗 https://www.zdnet.com/article/ces-2026-lg-gram-pro/
+   🏷️ 标签: fine, AI
+
+9、🔥 1月3日消息，A data center project in Alberta that’s backed by European firms has the potential to be worth as much as €8 billion ($9.4 billion) over the next several years, says the head of one of the companies i
+   📋 入选理由: 影响力评分: 112.5
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/articles/2026-01-02/data-district-plan-in-alberta-has-8-billion-potential-ceo-says
+   🏷️ 标签: billion
+
+10、🔥 1月3日消息，Grok created sexually explicit images of minors in recent days that have been shared on social media platform X
+   📋 入选理由: 影响力评分: 97.5
+   📰 来源: Financial Times Tech | 🔗 https://www.ft.com/content/0747a53c-19b6-4ed9-8eea-88c327f27fe6
+   🏷️ 标签: Elon Musk, AI
+
+11、🔥 1月3日消息，Elon Musk’s artificial intelligence chatbot Grok has created sexualized images of people including minors on the social media platform X in response to user prompts in recent days, drawing rebuke from
+   📋 入选理由: 影响力评分: 97.5
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/articles/2026-01-02/grok-posts-sexual-images-of-minors-after-lapses-in-safeguards
+   🏷️ 标签: Elon Musk, artificial intelligence
+
+12、🔥 1月3日消息，Samsung has unveiled the world's first 6K, 3D gaming monitor ahead of CES - but will it be a worthwhile purchase?
+   📋 入选理由: 影响力评分: 90.0
+   📰 来源: ZDNet AI | 🔗 https://www.zdnet.com/article/samsung-odyssey-3d-monitor-ces/
+   🏷️ 标签: unveils
+
+13、🔥 1月3日消息，The AI pioneer on stepping down from Meta, the limits of large language models — and the launch of his new start-up
+   📋 入选理由: 影响力评分: 90.0
+   📰 来源: Financial Times Tech | 🔗 https://www.ft.com/content/e3c4c2f6-4ea7-4adf-b945-e58495f836c2
+   🏷️ 标签: large language model, AI
+
+14、🔥 1月3日消息，Big Tech is remaking the U.S. map into an AI empire — kingdom-scale data centers, unprecedented debt, power constraints, and a near-religious belief in scaling.
+   📋 入选理由: 影响力评分: 90.0
+   📰 来源: CNBC Tech | 🔗 https://www.cnbc.com/2025/12/31/ai-data-centers-debt-sam-altman-elon-musk-mark-zuckerberg.html
+   🏷️ 标签: AI, billion
+
+15、🔥 1月3日消息，DeepSeek published a paper outlining a more efficient approach to developing AI, illustrating the Chinese artificial intelligence industry’s effort to compete with the likes of OpenAI despite a lack o
+   📋 入选理由: 影响力评分: 90.0
+   📰 来源: Bloomberg Technology | 🔗 https://www.bloomberg.com/news/articles/2026-01-02/deepseek-touts-new-training-method-as-china-pushes-ai-efficiency
+   🏷️ 标签: AI, artificial intelligence
+
+16、🔥 1月3日消息，EU law enforcement too dependent on digital infrastructure from US tech companies, Miguel De Bruycker says
+   📋 入选理由: 影响力评分: 82.5
+   📰 来源: Financial Times Tech | 🔗 https://www.ft.com/content/854fcad0-0d39-438b-975b-adf9d8b89827
+   🏷️ 标签: chief
+
+
+======================================================================
+📊 今日总结: 今日从64条原始信息中精选出19条国内动态和16条国际动态，其中35条为高重要性。 重点关注：「北京版幻方」冷不丁开源SOTA代码大模型！一张3090就能跑，40B参数掀翻Opus-4.5和GPT-5.2；百度AI芯片公司冲刺IPO：出货量国产第二；特斯拉电动车年销量首次被比亚迪超越。
+======================================================================
